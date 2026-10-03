@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="格雷拉特的数字花园与个人博客知识库，完整收录来自 Obsidian 的技术笔记、科研论文阅读、日语学习与生活随笔。">
+  <meta name="theme-color" content="#f4f5f1">
+  <title>知识库 &amp; 数字花园 · 格雷拉特</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body class="blog-body">
+
+  <!-- 全屏沉浸式工作台容器 -->
+  <div class="blog-app" id="blog-app">
+
+    <!-- 顶部导航与工具栏 -->
+    <header class="blog-topbar">
+      <div class="topbar-left">
+        <a class="brand" href="index.html" aria-label="返回格雷拉特主页">
+          <span class="brand-mark" aria-hidden="true">L</span>
+          <span class="brand-name">格雷拉特</span>
+        </a>
+        <span class="topbar-sep" aria-hidden="true">/</span>
+        <span class="topbar-section-title">数字花园 &amp; 博客</span>
+        
+        <nav class="reader-breadcrumbs" id="breadcrumbs" aria-label="面包屑导航">
+          <!-- 动态生成面包屑 -->
+        </nav>
+      </div>
+
+      <div class="topbar-center">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M9 16A7 7 0 1 0 9 2a7 7 0 0 0 0 14Zm6.5-1.5L19 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <input type="search" id="search-input" placeholder="搜索 30 篇笔记、技术方案、日语与研究..." autocomplete="off" spellcheck="false" aria-label="搜索笔记">
+          <kbd class="search-kbd" id="search-kbd">⌘K</kbd>
+          <button type="button" class="search-clear" id="search-clear" aria-label="清除搜索" hidden>×</button>
+        </div>
+      </div>
+
+      <div class="topbar-right">
+        <!-- 侧栏视图开关 -->
+        <button type="button" class="btn-tool" id="btn-toggle-sidebar" title="切换目录侧边栏 (Alt+B)" aria-label="切换目录侧边栏">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="3" y="3" width="14" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M8 3v14" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <span class="btn-tool-label">目录</span>
+        </button>
+
+        <button type="button" class="btn-tool" id="btn-toggle-outline" title="切换大纲侧边栏 (Alt+O)" aria-label="切换大纲侧边栏">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="3" y="3" width="14" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M12 3v14M15 7h-2M15 10h-2M15 13h-2" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <span class="btn-tool-label">大纲</span>
+        </button>
+
+        <button type="button" class="btn-tool" id="btn-focus-mode" title="沉浸全屏阅读 (Alt+F)" aria-label="沉浸全屏阅读">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M3 7V3h4M17 7V3h-4M3 13v4h4M17 13v4h-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="btn-tool-label">沉浸</span>
+        </button>
+
+        <div class="topbar-links">
+          <a href="index.html" class="topbar-link">主页</a>
+          <a href="anime.html" class="topbar-link">番剧</a>
+          <a href="japanese.html" class="topbar-link">日语</a>
+          <a href="friends.html" class="topbar-link">友链</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 主工作区：三栏布局铺满整页 -->
+    <div class="blog-workspace" id="blog-workspace">
+
+      <!-- 左侧栏：Obsidian 文件夹与笔记树 -->
+      <aside class="blog-sidebar" id="blog-sidebar" aria-label="笔记目录导航">
+        <div class="sidebar-header">
+          <div class="vault-info">
+            <span class="vault-icon" aria-hidden="true">💎</span>
+            <div class="vault-text">
+              <span class="vault-title">Obsidian 仓库</span>
+              <span class="vault-meta" id="vault-stats">正在加载笔记...</span>
+            </div>
+          </div>
+          <button type="button" class="sidebar-close-btn" id="sidebar-close-btn" aria-label="收起侧边栏">‹</button>
+        </div>
+
+        <!-- 快捷分类筛选药丸 -->
+        <div class="sidebar-filters" id="category-chips" aria-label="分类筛选">
+          <button type="button" class="chip-filter active" data-category="ALL">全部</button>
+          <!-- 动态补充分类按钮 -->
+        </div>
+
+        <!-- 目录树导航区 -->
+        <div class="sidebar-tree-wrap" id="sidebar-tree-wrap">
+          <div class="file-tree" id="file-tree" role="tree">
+            <!-- 动态生成文件夹树与笔记列表 -->
+          </div>
+        </div>
+
+        <!-- 搜索结果列表（搜索时覆盖显示） -->
+        <div class="search-results-panel" id="search-results-panel" hidden>
+          <div class="search-results-header">
+            <span id="search-results-count">0 条匹配结果</span>
+          </div>
+          <div class="search-results-list" id="search-results-list"></div>
+        </div>
+      </aside>
+
+      <!-- 侧边栏遮罩（移动端抽屉遮罩） -->
+      <div class="sidebar-backdrop" id="sidebar-backdrop" aria-hidden="true"></div>
+
+      <!-- 中间主阅读区（铺满整页排版） -->
+      <main class="blog-reader" id="blog-reader" tabindex="-1">
+        <div class="reader-inner" id="reader-inner">
+
+          <!-- 移动端顶部快捷操作条 -->
+          <div class="reader-mobile-bar">
+            <button type="button" class="mobile-bar-btn" id="mobile-tree-btn">
+              <span aria-hidden="true">📂</span> 目录
+            </button>
+            <span class="mobile-bar-title" id="mobile-bar-title">选择一篇笔记阅读</span>
+            <button type="button" class="mobile-bar-btn" id="mobile-outline-btn">
+              <span aria-hidden="true">📑</span> 大纲
+            </button>
+          </div>
+
+          <!-- 文章容器 -->
+          <article class="article-sheet" id="article-sheet">
+            <!-- 文章元信息区 -->
+            <header class="sheet-header" id="sheet-header">
+              <div class="sheet-badges">
+                <span class="sheet-category-badge" id="sheet-category">分类</span>
+                <span class="sheet-source-badge">Obsidian Vault</span>
+                <div class="sheet-tags" id="sheet-tags"></div>
+              </div>
+
+              <h1 class="sheet-title" id="sheet-title">欢迎访问我的数字花园</h1>
+
+              <div class="sheet-meta-row">
+                <span class="meta-item">
+                  <span aria-hidden="true">📅</span>
+                  <time id="sheet-date">2026</time>
+                </span>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="meta-item">
+                  <span aria-hidden="true">📝</span>
+                  <span id="sheet-words">0 字</span>
+                </span>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="meta-item">
+                  <span aria-hidden="true">⏱️</span>
+                  <span id="sheet-time">1 分钟阅读</span>
+                </span>
+
+                <div class="sheet-actions">
+                  <button type="button" class="sheet-action-btn" id="btn-copy-link" title="复制文章链接">
+                    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                      <path d="M8 12a4 4 0 0 0 5.66 0l2.83-2.83a4 4 0 0 0-5.66-5.66l-1.41 1.42M12 8a4 4 0 0 0-5.66 0L3.5 10.83a4 4 0 0 0 5.66 5.66l1.41-1.42" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                    </svg>
+                    <span>分享</span>
+                  </button>
+                  <button type="button" class="sheet-action-btn" id="btn-copy-markdown" title="复制 Markdown 原文">
+                    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                      <rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/>
+                      <path d="M4 13V4a1 1 0 0 1 1-1h9" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                    <span>复制原文</span>
+                  </button>
+                </div>
+              </div>
+            </header>
+
+            <!-- Markdown 渲染正文区 -->
+            <div class="sheet-content markdown-body" id="article-body">
+              <!-- 动态渲染 Markdown -->
+              <div class="sheet-placeholder">
+                <div class="spinner"></div>
+                <p>正在拉取笔记内容...</p>
+              </div>
+            </div>
+
+            <!-- 文章底部上下篇切换导航 -->
+            <nav class="sheet-footer-nav" id="sheet-footer-nav" aria-label="相邻笔记导航">
+              <a href="#" class="nav-card prev-card" id="nav-prev" hidden>
+                <span class="nav-dir">← 上一篇</span>
+                <span class="nav-title" id="nav-prev-title">上一篇笔记</span>
+              </a>
+              <a href="#" class="nav-card next-card" id="nav-next" hidden>
+                <span class="nav-dir">下一篇 →</span>
+                <span class="nav-title" id="nav-next-title">下一篇笔记</span>
+              </a>
+            </nav>
+          </article>
+
+        </div>
+      </main>
+
+      <!-- 右侧栏：文章大纲 (Table of Contents) 与元信息 -->
+      <aside class="blog-outline" id="blog-outline" aria-label="文章目录与大纲">
+        <div class="outline-header">
+          <div class="outline-title-wrap">
+            <span aria-hidden="true">📑</span>
+            <span class="outline-heading">本文大纲</span>
+          </div>
+          <button type="button" class="outline-close-btn" id="outline-close-btn" aria-label="收起大纲">›</button>
+        </div>
+
+        <nav class="outline-toc-wrap" id="outline-toc" aria-label="大纲链接">
+          <ul class="toc-list" id="toc-list">
+            <li class="toc-empty">暂无标题导航</li>
+          </ul>
+        </nav>
+
+        <!-- 笔记详情卡片 -->
+        <div class="outline-note-card">
+          <h4 class="card-subtitle">关于这篇笔记</h4>
+          <dl class="card-dl">
+            <dt>归档路径</dt>
+            <dd id="card-path">-</dd>
+            <dt>字数统计</dt>
+            <dd id="card-words">-</dd>
+            <dt>最后更新</dt>
+            <dd id="card-mtime">-</dd>
+          </dl>
+        </div>
+
+        <!-- 同分类推荐 -->
+        <div class="outline-related" id="outline-related">
+          <h4 class="card-subtitle">同分类其他笔记</h4>
+          <ul class="related-list" id="related-list"></ul>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- 复制提示 Toast -->
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden>已复制到剪贴板</div>
+
+  </div>
+
+  <!-- 依赖脚本：Marked + PrismJS + 渲染引擎 -->
+  <script src="marked.min.js"></script>
+  <script src="prism.min.js"></script>
+  <script src="blog-renderer.js"></script>
+</body>
+</html>

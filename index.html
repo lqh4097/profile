@@ -16,7 +16,7 @@
         <span>格雷拉特</span>
       </a>
       <nav class="site-nav" aria-label="页面导航">
-        <a href="#writing">文章</a>
+        <a href="blog.html">博客 / 知识库</a>
         <a href="#projects">项目</a>
         <a href="anime.html">番剧</a>
         <a href="japanese.html">日语学习</a>
@@ -42,8 +42,8 @@
           </ul>
 
           <nav class="actions" aria-label="相关链接">
-            <a class="button-primary" href="#writing">
-              阅读最新文章
+            <a class="button-primary" href="blog.html">
+              进入博客知识库
               <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M4.5 10h10.75M10 4.75 15.25 10 10 15.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
@@ -111,72 +111,81 @@
       <section class="home-section" id="writing" aria-labelledby="writing-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>01 / Writing</p>
-            <h2 class="section-title" id="writing-title">最新文章</h2>
-            <p class="section-summary">记录技术实践心得、边缘计算架构探索以及个人的学习与思考。</p>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>01 / Writing &amp; Knowledge Base</p>
+            <h2 class="section-title" id="writing-title">最新文章与知识库</h2>
+            <p class="section-summary">已将全部 Obsidian 笔记库（共 30 篇）同步至数字花园，涵盖计算机技术、科研论文、日语学习与随笔杂谈。</p>
           </div>
         </div>
 
         <div class="articles-grid">
           <article class="article-card">
             <div class="article-meta">
-              <span class="article-badge">技术实践</span>
-              <time datetime="2026-03-28">2026-03-28</time>
-              <span class="article-dot" aria-hidden="true">·</span>
-              <span>5 min read</span>
-            </div>
-            <h3 class="article-title">
-              <a href="#">基于 Cloudflare Pages + D1 构建现代轻量个人主页与博客系统</a>
-            </h3>
-            <p class="article-excerpt">
-              探讨如何利用 Cloudflare 边缘网络、Pages Functions 与 D1 关系型数据库，构建一个零运维成本、全球毫秒级响应且具备动态数据能力的轻量个人站点。
-            </p>
-            <div class="article-tags">
-              <span>Cloudflare</span>
-              <span>Serverless</span>
-              <span>SQLite</span>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <div class="article-meta">
-              <span class="article-badge">学习沉淀</span>
-              <time datetime="2026-03-15">2026-03-15</time>
-              <span class="article-dot" aria-hidden="true">·</span>
-              <span>8 min read</span>
-            </div>
-            <h3 class="article-title">
-              <a href="japanese.html">从零开始的日语自学：五十音、发音规律与体系化积累</a>
-            </h3>
-            <p class="article-excerpt">
-              从日常 Obsidian 笔记到结构化 Web 展示，整理我在假名拼读、浊音半浊音以及课文阅读中沉淀的高频词汇与思维模型。
-            </p>
-            <div class="article-tags">
-              <span>日语学习</span>
-              <span>Obsidian</span>
-              <span>方法论</span>
-            </div>
-          </article>
-
-          <article class="article-card">
-            <div class="article-meta">
-              <span class="article-badge">数字思考</span>
-              <time datetime="2026-02-20">2026-02-20</time>
+              <span class="article-badge">计算机技术</span>
+              <time datetime="2026-07-21">2026-07-21</time>
               <span class="article-dot" aria-hidden="true">·</span>
               <span>4 min read</span>
             </div>
             <h3 class="article-title">
-              <a href="#">在喧嚣的算法网络里，搭建属于自己的“数字花园”</a>
+              <a href="blog.html#note=计算机技术/Antigravity与Codex代理配置指南.md">Antigravity 与 Codex 代理配置指南</a>
             </h3>
             <p class="article-excerpt">
-              不追求繁重的前端框架与算法推荐，通过纯粹的原生 Web 技术，构建一个自主可控、宁静且真正属于自己的个人网络居所。
+              针对开发过程中智能体开发工具与终端网络代理的配置指南，梳理环境变量、端口映射与各协议对比实践。
             </p>
             <div class="article-tags">
-              <span>数字花园</span>
-              <span>独立博客</span>
-              <span>思考</span>
+              <span>Codex</span>
+              <span>Antigravity</span>
+              <span>代理配置</span>
             </div>
           </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <span class="article-badge">科研方向</span>
+              <time datetime="2026-04-14">2026-04-14</time>
+              <span class="article-dot" aria-hidden="true">·</span>
+              <span>6 min read</span>
+            </div>
+            <h3 class="article-title">
+              <a href="blog.html#note=论文阅读笔记_PMB-CAS.md">论文阅读笔记：PMB-CAS 多目标神经架构搜索</a>
+            </h3>
+            <p class="article-excerpt">
+              深入解读 IEEE TCSS 最新论文：通过多目标神经架构搜索实现认知诊断模型在准确性与拓扑可解释性上的平衡。
+            </p>
+            <div class="article-tags">
+              <span>NAS</span>
+              <span>多目标优化</span>
+              <span>论文精读</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <span class="article-badge">日语文化</span>
+              <time datetime="2026-07-27">2026-07-27</time>
+              <span class="article-dot" aria-hidden="true">·</span>
+              <span>8 min read</span>
+            </div>
+            <h3 class="article-title">
+              <a href="blog.html#note=日本/日语学习.md">日语学习：从五十音到课文阅读沉淀</a>
+            </h3>
+            <p class="article-excerpt">
+              整理日常学习中的假名拼读规则、浊音拗音图谱、自我介绍口语练习以及课文翻译阅读中积累的高频词汇。
+            </p>
+            <div class="article-tags">
+              <span>日语自学</span>
+              <span>Obsidian</span>
+              <span>五十音</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top: 2rem; text-align: center;">
+          <a class="button-secondary" href="blog.html" style="display: inline-flex; min-height: 46px;">
+            进入完整数字花园 &amp; 博客知识库 (全部 30 篇笔记)
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" style="width: 16px; height: 16px; margin-left: 0.5rem;">
+              <path d="M4.5 10h10.75M10 4.75 15.25 10 10 15.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
         </div>
       </section>
 
@@ -268,6 +277,15 @@
         </div>
 
         <div class="explore-grid">
+          <a class="explore-card" href="blog.html">
+            <div class="explore-card-icon">💎</div>
+            <div class="explore-card-content">
+              <h3>Obsidian 数字花园</h3>
+              <p>完整收录 30 篇笔记：计算机技术、科研论文、日本文化与生活随笔。</p>
+            </div>
+            <span class="explore-arrow" aria-hidden="true">→</span>
+          </a>
+
           <a class="explore-card" href="anime.html">
             <div class="explore-card-icon">🎬</div>
             <div class="explore-card-content">
@@ -312,7 +330,7 @@
         <nav class="footer-nav" aria-label="页脚链接">
           <div class="footer-nav-col">
             <span class="footer-col-title">导航</span>
-            <a href="#writing">文章专区</a>
+            <a href="blog.html">博客 / 知识库</a>
             <a href="#projects">精选项目</a>
             <a href="anime.html">看过的番剧</a>
             <a href="japanese.html">日语学习</a>

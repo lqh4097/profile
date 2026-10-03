@@ -1,0 +1,1471 @@
+{
+  "updatedAt": "2026-10-03T13:52:29.639Z",
+  "totalNotes": 30,
+  "categories": [
+    {
+      "name": "综合随笔",
+      "count": 7
+    },
+    {
+      "name": "日本",
+      "count": 4
+    },
+    {
+      "name": "日本/日本之行",
+      "count": 2
+    },
+    {
+      "name": "日本/日语歌词",
+      "count": 8
+    },
+    {
+      "name": "科研方向",
+      "count": 4
+    },
+    {
+      "name": "计算机技术",
+      "count": 4
+    },
+    {
+      "name": "随笔",
+      "count": 1
+    }
+  ],
+  "tags": [
+    {
+      "name": "Params",
+      "count": 1
+    },
+    {
+      "name": "取值",
+      "count": 1
+    }
+  ],
+  "notes": [
+    {
+      "id": "随笔--随笔",
+      "relPath": "随笔/随笔.md",
+      "title": "随笔",
+      "category": "随笔",
+      "tags": [],
+      "wordCount": 45,
+      "readingTime": 1,
+      "excerpt": "想到啥写啥 谷歌ai，我之前的学生会员掉了，后面可以继续再补学生认证，然后又有一年，但这个留在最后",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.632Z"
+    },
+    {
+      "id": "计算机技术--代理协议对比",
+      "relPath": "计算机技术/代理协议对比.md",
+      "title": "代理协议对比",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 428,
+      "readingTime": 2,
+      "excerpt": "最早流行的代理协议，原理简单，加密流量 特征明显，目前已被 GFW 精准识别，不推荐新建节点使用 老节点兼容性好，客户端支持最广 V2Ray 自研协议，带时间校验（客户端与服务端时间需同步） 流量特征比 SS 更隐蔽，但仍可被检测 已逐渐被 VLESS 取代 VMess 的轻量化改进版，去掉冗余加密（通常配合 TLS ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Shadowsocks（SS）",
+          "id": "shadowsocks-ss-"
+        },
+        {
+          "level": 2,
+          "text": "VMess",
+          "id": "vmess"
+        },
+        {
+          "level": 2,
+          "text": "VLESS",
+          "id": "vless"
+        },
+        {
+          "level": 2,
+          "text": "Trojan",
+          "id": "trojan"
+        },
+        {
+          "level": 2,
+          "text": "XTLS Reality",
+          "id": "xtls-reality"
+        },
+        {
+          "level": 2,
+          "text": "Hysteria2",
+          "id": "hysteria2"
+        },
+        {
+          "level": 2,
+          "text": "TUIC",
+          "id": "tuic"
+        },
+        {
+          "level": 2,
+          "text": "横向对比",
+          "id": "横向对比"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.631Z"
+    },
+    {
+      "id": "计算机技术--翻墙技术",
+      "relPath": "计算机技术/翻墙技术.md",
+      "title": "网络服务器配置",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 264,
+      "readingTime": 1,
+      "excerpt": "VPS 初始化设置 + 代理协议一键安装脚本 弹出提示直接回车即可 输出含 即成功 macka/v2rayagent 一键脚本，支持 VLESS / Trojan / XTLS Reality 等多种协议： 3XUI 开源 Web 控制面板： v2rayagent个人用，3xui多人使用管理，在虚拟机上配置好后都需要去...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、基础环境配置",
+          "id": "一-基础环境配置"
+        },
+        {
+          "level": 3,
+          "text": "1. 切换到 root",
+          "id": "1-切换到-root"
+        },
+        {
+          "level": 3,
+          "text": "2. 更新系统",
+          "id": "2-更新系统"
+        },
+        {
+          "level": 3,
+          "text": "3. 设置时区（东八区）",
+          "id": "3-设置时区-东八区-"
+        },
+        {
+          "level": 3,
+          "text": "4. 验证时间",
+          "id": "4-验证时间"
+        },
+        {
+          "level": 3,
+          "text": "5. 开启 BBR 拥塞控制",
+          "id": "5-开启-bbr-拥塞控制"
+        },
+        {
+          "level": 3,
+          "text": "6. 生效配置",
+          "id": "6-生效配置"
+        },
+        {
+          "level": 3,
+          "text": "7. 验证 BBR 是否开启",
+          "id": "7-验证-bbr-是否开启"
+        },
+        {
+          "level": 2,
+          "text": "二、安装代理协议",
+          "id": "二-安装代理协议"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.631Z"
+    },
+    {
+      "id": "讨论主题钱是不是万恶之源",
+      "relPath": "讨论主题：钱是不是万恶之源.md",
+      "title": "讨论主题：钱是不是万恶之源",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 76,
+      "readingTime": 1,
+      "excerpt": "名称：正方 背景故事： 讨论目标： 名称：反方 背景故事： 讨论目标： `text 请双方各举一个现实例子说明自己的观点，并回应对方的主要论据。",
+      "headings": [
+        {
+          "level": 3,
+          "text": "智能体一：正方",
+          "id": "智能体一-正方"
+        },
+        {
+          "level": 3,
+          "text": "智能体二：反方",
+          "id": "智能体二-反方"
+        },
+        {
+          "level": 3,
+          "text": "观察员问题",
+          "id": "观察员问题"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.631Z"
+    },
+    {
+      "id": "论文阅读笔记_PMB-CAS",
+      "relPath": "论文阅读笔记_PMB-CAS.md",
+      "title": "论文阅读：PMB-CAS — 多目标神经架构搜索实现认知诊断的准确性与可解释性平衡",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 1593,
+      "readingTime": 5,
+      "excerpt": "原文标题：MultiObjective Neural Architecture Search for Cognitive Diagnosis: Balancing Accuracy and Interpretability With Probabilistic Models 作者：Yifei Sun, Mingkai ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、研究背景与问题",
+          "id": "一-研究背景与问题"
+        },
+        {
+          "level": 3,
+          "text": "背景",
+          "id": "背景"
+        },
+        {
+          "level": 3,
+          "text": "核心矛盾",
+          "id": "核心矛盾"
+        },
+        {
+          "level": 3,
+          "text": "现有局限",
+          "id": "现有局限"
+        },
+        {
+          "level": 2,
+          "text": "二、核心贡献",
+          "id": "二-核心贡献"
+        },
+        {
+          "level": 2,
+          "text": "三、方法论",
+          "id": "三-方法论"
+        },
+        {
+          "level": 3,
+          "text": "3.1 整体流程",
+          "id": "3-1-整体流程"
+        },
+        {
+          "level": 3,
+          "text": "3.2 搜索空间",
+          "id": "3-2-搜索空间"
+        },
+        {
+          "level": 4,
+          "text": "终端集（叶子节点）",
+          "id": "终端集-叶子节点-"
+        },
+        {
+          "level": 4,
+          "text": "算子集（内部节点）",
+          "id": "算子集-内部节点-"
+        },
+        {
+          "level": 3,
+          "text": "3.3 多目标优化",
+          "id": "3-3-多目标优化"
+        },
+        {
+          "level": 3,
+          "text": "3.4 概率模型引导搜索（EDA核心）",
+          "id": "3-4-概率模型引导搜索-eda核心-"
+        },
+        {
+          "level": 3,
+          "text": "3.5 计算复杂度",
+          "id": "3-5-计算复杂度"
+        },
+        {
+          "level": 2,
+          "text": "四、实验结果",
+          "id": "四-实验结果"
+        },
+        {
+          "level": 3,
+          "text": "数据集",
+          "id": "数据集"
+        },
+        {
+          "level": 3,
+          "text": "主要结果",
+          "id": "主要结果"
+        },
+        {
+          "level": 3,
+          "text": "消融实验",
+          "id": "消融实验"
+        },
+        {
+          "level": 2,
+          "text": "五、亮点与不足",
+          "id": "五-亮点与不足"
+        },
+        {
+          "level": 3,
+          "text": "亮点",
+          "id": "亮点"
+        },
+        {
+          "level": 3,
+          "text": "不足之处（原文自述）",
+          "id": "不足之处-原文自述-"
+        },
+        {
+          "level": 3,
+          "text": "个人思考",
+          "id": "个人思考"
+        },
+        {
+          "level": 2,
+          "text": "六、关键术语",
+          "id": "六-关键术语"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.631Z"
+    },
+    {
+      "id": "科研方向--研究计划",
+      "relPath": "科研方向/研究计划.md",
+      "title": "研究计划",
+      "category": "科研方向",
+      "tags": [],
+      "wordCount": 688,
+      "readingTime": 2,
+      "excerpt": "初步想法：面向边缘设备的鸟鸣识别轻量化模型搜索。以 RK3566 这类算力受限的边缘硬件为目标平台，研究如何通过多目标神经架构搜索，在鸟鸣分类精度和实际推理延迟之间找到较优平衡。 目前考虑主线： 1. 先构建一个小规模鸟鸣分类数据集，大约 58 类鸟种加背景噪声，数据来源主要是 xenocanto 或者 BirdCLE...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.630Z"
+    },
+    {
+      "id": "科研方向--遗传算法",
+      "relPath": "科研方向/遗传算法.md",
+      "title": "算法概述",
+      "category": "科研方向",
+      "tags": [],
+      "wordCount": 1337,
+      "readingTime": 4,
+      "excerpt": "遗传算法是一种模拟达尔文生物进化论的随机搜索启发式算法，是一种经典的进化计算算法 核心思想：通过对种群进行选择、交叉和变异等遗传操作，使优良个体在进化过程中逐渐占据主导，从而在复杂的搜索空间中逼近或找到最优解（枚举法、启发式算法、搜索算法） 常用于：函数优化、组合优化、生产调度问题等 算法主要包括：编码、产生初始种群、...",
+      "headings": [
+        {
+          "level": 3,
+          "text": "1-2月份安排",
+          "id": "1-2月份安排"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.630Z"
+    },
+    {
+      "id": "计算机技术--AI订阅",
+      "relPath": "计算机技术/AI订阅.md",
+      "title": "主流 AI 订阅指南 (ChatGPT Plus / Claude Pro)",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 1623,
+      "readingTime": 5,
+      "excerpt": "本指南针对国内用户订阅 ChatGPT Plus 和 Claude Pro 的主流支付通道及电话验证方案进行详细拆解。 目前主流的订阅渠道主要有以下三种，推荐使用 美区 Apple ID + 礼品卡 方案（最稳定且门槛最低）。 原理：将 ChatGPT/Claude 官方 App 下载至 iOS 设备，通过美区 App...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、 订阅支付方案",
+          "id": "一-订阅支付方案"
+        },
+        {
+          "level": 3,
+          "text": "1. 美区 Apple ID + 礼品卡支付（★ 最推荐，最稳定）",
+          "id": "1-美区-apple-id-礼品卡支付-最推荐-最稳定-"
+        },
+        {
+          "level": 3,
+          "text": "2. 国内外万事达/Visa 卡 + Google Pay（Android 用户推荐）",
+          "id": "2-国内外万事达-visa-卡-google-pay-android-用户推荐-"
+        },
+        {
+          "level": 3,
+          "text": "3. 虚拟信用卡支付（适合无外币卡或需网页端支付的用户）",
+          "id": "3-虚拟信用卡支付-适合无外币卡或需网页端支付的用户-"
+        },
+        {
+          "level": 3,
+          "text": "4. 境外实体信用卡直接支付",
+          "id": "4-境外实体信用卡直接支付"
+        },
+        {
+          "level": 2,
+          "text": "二、 电话验证 / 接码方案",
+          "id": "二-电话验证-接码方案"
+        },
+        {
+          "level": 3,
+          "text": "1. 英国 giffgaff 实体手机卡（★ 长期持有首选，最稳定）",
+          "id": "1-英国-giffgaff-实体手机卡-长期持有首选-最稳定-"
+        },
+        {
+          "level": 3,
+          "text": "2. WhatsApp / Viber 绑定验证",
+          "id": "2-whatsapp-viber-绑定验证"
+        },
+        {
+          "level": 3,
+          "text": "3. 一次性接码平台（适合临时注册）",
+          "id": "3-一次性接码平台-适合临时注册-"
+        },
+        {
+          "level": 2,
+          "text": "三、 防封号与订阅避坑指南",
+          "id": "三-防封号与订阅避坑指南"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.630Z"
+    },
+    {
+      "id": "计算机技术--Antigravity与Codex代理配置指南",
+      "relPath": "计算机技术/Antigravity与Codex代理配置指南.md",
+      "title": "Antigravity & Codex 代理配置指南（免全局 TUN 模式）",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 977,
+      "readingTime": 3,
+      "excerpt": "本指南介绍如何在不同系统和环境下，为 Antigravity 和 Codex 配置独立的网络代理，从而避免开启全局 TUN / 增强模式，节省代理流量并保障连接稳定性。 Antigravity 客户端基于 Electron 开发，且在运行时会在后台拉取名为 的后台进程（负责处理模型请求与终端命令）。 通过在启动时注入 ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、 Antigravity 代理配置",
+          "id": "一-antigravity-代理配置"
+        },
+        {
+          "level": 3,
+          "text": "1. macOS 篇：编译独立启动器 App",
+          "id": "1-macos-篇-编译独立启动器-app"
+        },
+        {
+          "level": 4,
+          "text": "核心原理",
+          "id": "核心原理"
+        },
+        {
+          "level": 4,
+          "text": "步骤 1：编译制作独立的启动器 App",
+          "id": "步骤-1-编译制作独立的启动器-app"
+        },
+        {
+          "level": 4,
+          "text": "步骤 2：为启动器换上官方图标",
+          "id": "步骤-2-为启动器换上官方图标"
+        },
+        {
+          "level": 4,
+          "text": "步骤 3：使用与整理",
+          "id": "步骤-3-使用与整理"
+        },
+        {
+          "level": 3,
+          "text": "2. Windows 篇：透明代理注入工具",
+          "id": "2-windows-篇-透明代理注入工具"
+        },
+        {
+          "level": 4,
+          "text": "核心原理",
+          "id": "核心原理"
+        },
+        {
+          "level": 4,
+          "text": "步骤 1：下载工具",
+          "id": "步骤-1-下载工具"
+        },
+        {
+          "level": 4,
+          "text": "步骤 2：解压与部署",
+          "id": "步骤-2-解压与部署"
+        },
+        {
+          "level": 4,
+          "text": "步骤 3：配置本地代理",
+          "id": "步骤-3-配置本地代理"
+        },
+        {
+          "level": 4,
+          "text": "步骤 4：运行验证",
+          "id": "步骤-4-运行验证"
+        },
+        {
+          "level": 2,
+          "text": "二、 Codex 代理配置（解决重连问题）",
+          "id": "二-codex-代理配置-解决重连问题-"
+        },
+        {
+          "level": 3,
+          "text": "核心原理",
+          "id": "核心原理"
+        },
+        {
+          "level": 3,
+          "text": "配置步骤",
+          "id": "配置步骤"
+        },
+        {
+          "level": 4,
+          "text": "1. 创建或编辑 .env 文件",
+          "id": "1-创建或编辑-env-文件"
+        },
+        {
+          "level": 4,
+          "text": "2. 写入代理配置",
+          "id": "2-写入代理配置"
+        },
+        {
+          "level": 2,
+          "text": "三、 常见问题与排查",
+          "id": "三-常见问题与排查"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.630Z"
+    },
+    {
+      "id": "科研方向--研究方向_终案",
+      "relPath": "科研方向/研究方向_终案.md",
+      "title": "面向边缘硬件感知的多目标进化神经架构搜索研究方案",
+      "category": "科研方向",
+      "tags": [
+        "取值"
+      ],
+      "wordCount": 2920,
+      "readingTime": 9,
+      "excerpt": "RK3566 边缘端算力严重受限（CPU: 4×CortexA55, NPU: 0.8 TOPS），如何在精度和推理延迟之间自动找到最优平衡，打破手工架构的瓶颈。 | 目标 | 最低要求 | 理想值 | |||| | 鸟鸣分类 Top1 Accuracy | 80% | 90% | | RK3566 单次推理延迟 | ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "核心问题",
+          "id": "核心问题"
+        },
+        {
+          "level": 2,
+          "text": "量化目标",
+          "id": "量化目标"
+        },
+        {
+          "level": 2,
+          "text": "两个研究内容的关系",
+          "id": "两个研究内容的关系"
+        },
+        {
+          "level": 2,
+          "text": "数据集方案",
+          "id": "数据集方案"
+        },
+        {
+          "level": 3,
+          "text": "鸟种选择（8 类，覆盖不同频带特征）",
+          "id": "鸟种选择-8-类-覆盖不同频带特征-"
+        },
+        {
+          "level": 3,
+          "text": "数据采集方式",
+          "id": "数据采集方式"
+        },
+        {
+          "level": 3,
+          "text": "数据预处理 pipeline",
+          "id": "数据预处理-pipeline"
+        },
+        {
+          "level": 2,
+          "text": "搜索空间定义（核心）",
+          "id": "搜索空间定义-核心-"
+        },
+        {
+          "level": 3,
+          "text": "宏观架构编码",
+          "id": "宏观架构编码"
+        },
+        {
+          "level": 3,
+          "text": "微观构建块（每个 stage 内的搜索单元）",
+          "id": "微观构建块-每个-stage-内的搜索单元-"
+        },
+        {
+          "level": 3,
+          "text": "搜索空间设计理由（面向时频稀疏信号）",
+          "id": "搜索空间设计理由-面向时频稀疏信号-"
+        },
+        {
+          "level": 2,
+          "text": "基线模型配置",
+          "id": "基线模型配置"
+        },
+        {
+          "level": 2,
+          "text": "评估指标体系",
+          "id": "评估指标体系"
+        },
+        {
+          "level": 3,
+          "text": "分类性能",
+          "id": "分类性能"
+        },
+        {
+          "level": 3,
+          "text": "硬件效率",
+          "id": "硬件效率"
+        },
+        {
+          "level": 3,
+          "text": "搜索质量",
+          "id": "搜索质量"
+        },
+        {
+          "level": 3,
+          "text": "统计检验",
+          "id": "统计检验"
+        },
+        {
+          "level": 2,
+          "text": "实验设计（完整版）",
+          "id": "实验设计-完整版-"
+        },
+        {
+          "level": 3,
+          "text": "实验 1：基线对比（验证搜索必要性）",
+          "id": "实验-1-基线对比-验证搜索必要性-"
+        },
+        {
+          "level": 3,
+          "text": "实验 2：消融实验（四组）",
+          "id": "实验-2-消融实验-四组-"
+        },
+        {
+          "level": 3,
+          "text": "实验 3：NSGA-II vs MOEA/D 系统对比",
+          "id": "实验-3-nsga-ii-vs-moea-d-系统对比"
+        },
+        {
+          "level": 3,
+          "text": "实验 4：蒸馏对搜索的影响（蒸馏可选做）",
+          "id": "实验-4-蒸馏对搜索的影响-蒸馏可选做-"
+        },
+        {
+          "level": 2,
+          "text": "算法改进",
+          "id": "算法改进"
+        },
+        {
+          "level": 3,
+          "text": "改进 A：硬件感知种群初始化",
+          "id": "改进-a-硬件感知种群初始化"
+        },
+        {
+          "level": 3,
+          "text": "改进 B：代理模型辅助进化",
+          "id": "改进-b-代理模型辅助进化"
+        },
+        {
+          "level": 2,
+          "text": "进展安排",
+          "id": "进展安排"
+        },
+        {
+          "level": 3,
+          "text": "阶段 0：基础设施搭建",
+          "id": "阶段-0-基础设施搭建"
+        },
+        {
+          "level": 3,
+          "text": "阶段 1：搜索空间 + 基础 NSGA-II",
+          "id": "阶段-1-搜索空间-基础-nsga-ii"
+        },
+        {
+          "level": 3,
+          "text": "阶段 2：硬件感知延迟预测器（2026.08.16 ~ 2026.09.30，6 周）",
+          "id": "阶段-2-硬件感知延迟预测器-2026-08-16-2026-09-30-6-周-"
+        },
+        {
+          "level": 3,
+          "text": "阶段 3：改进 B + 消融实验（2026.10.01 ~ 2026.11.30，8 周）",
+          "id": "阶段-3-改进-b-消融实验-2026-10-01-2026-11-30-8-周-"
+        },
+        {
+          "level": 3,
+          "text": "阶段 4：MOEA/D 对比 + 蒸馏（2026.12.01 ~ 2027.02.15，10 周）",
+          "id": "阶段-4-moea-d-对比-蒸馏-2026-12-01-2027-02-15-10-周-"
+        },
+        {
+          "level": 3,
+          "text": "阶段 5：论文撰写与投稿（2027.02.16 ~ 2027.06.30）",
+          "id": "阶段-5-论文撰写与投稿-2027-02-16-2027-06-30-"
+        },
+        {
+          "level": 2,
+          "text": "目标期刊及时间规划",
+          "id": "目标期刊及时间规划"
+        },
+        {
+          "level": 2,
+          "text": "风险及应对",
+          "id": "风险及应对"
+        },
+        {
+          "level": 2,
+          "text": "每周固定动作",
+          "id": "每周固定动作"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.629Z"
+    },
+    {
+      "id": "日本--日语歌词--老人与海歌词",
+      "relPath": "日本/日语歌词/老人与海歌词.md",
+      "title": "老人と海 — ヨルシカ",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1078,
+      "readingTime": 4,
+      "excerpt": "靴紐(くつひも)が解(ほど)けてる 鞋带松开 木漏(こも)れ日(び)は足(あし)を舐(な)む 斑驳树荫下的阳光照在脚上 息(いき)を吸(す)う音(おと)だけ聞(き)こえてる 只听得到轻轻的呼吸声 貴方(あなた)は今(いま)立(た)ち上(あ)がる 你突然站了起来 古(ふる)びた椅子(いす)の上(うえ)から 从那把陈旧的椅...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.628Z"
+    },
+    {
+      "id": "科研方向--研究方向",
+      "relPath": "科研方向/研究方向.md",
+      "title": "解决问题：边缘算力宽带受限",
+      "category": "科研方向",
+      "tags": [],
+      "wordCount": 1672,
+      "readingTime": 5,
+      "excerpt": "如何通过知识蒸馏在大幅压缩模型规模的同时最大限度保留云端教师模型的声学表征能 力，并在“点端区域端云端”异构硬件间实现分层协同与动态负载均衡，是支撑 PAM 规模化野外部署的关键技术挑战。 研究方向： 研究内容一：面向边缘轻量化的单目标进化NAS方法 研究内容二：面向边云协同的多目标进化NAS方法 问题：如何在 RK3...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "1、基础设置搭建",
+          "id": "1-基础设置搭建"
+        },
+        {
+          "level": 2,
+          "text": "2、搜索空间 + NSGA-II 基础集成",
+          "id": "2-搜索空间-nsga-ii-基础集成"
+        },
+        {
+          "level": 2,
+          "text": "3、硬件感知延迟预测器",
+          "id": "3-硬件感知延迟预测器"
+        },
+        {
+          "level": 2,
+          "text": "4、MOEA/D 对比 + 算法改进",
+          "id": "4-moea-d-对比-算法改进"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.628Z"
+    },
+    {
+      "id": "日本--日语歌词--歌词",
+      "relPath": "日本/日语歌词/ツバサ歌词.md",
+      "title": "ツバサ — 七星静香（CV: 若山詩音）",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1635,
+      "readingTime": 5,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"明(あ)け方(がた)過(す)ぎの国道(こくどう)までの細(ほそ)い抜(ぬ)け道(みち)</span 黎明时分通往国道...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.627Z"
+    },
+    {
+      "id": "日本--日语歌词--我心危歌词",
+      "relPath": "日本/日语歌词/我心危歌词.md",
+      "title": "僕は... — あたらよ",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1890,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"君(きみ)が僕(ぼく)に見(み)せてくれた</span 是你让我看到 <span style=\"fontfamily...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.627Z"
+    },
+    {
+      "id": "日本--日语歌词--斜阳歌词",
+      "relPath": "日本/日语歌词/斜阳歌词.md",
+      "title": "斜陽 — ヨルシカ",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1170,
+      "readingTime": 4,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"頬色(ほおいろ)に茜(あかね)さす日(ひ)は柔らか(やわらか)に</span 颊色染上了一抹茜红，夕阳柔和地迸裂开来...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.627Z"
+    },
+    {
+      "id": "日本--日语歌词--spiral歌词",
+      "relPath": "日本/日语歌词/spiral歌词.md",
+      "title": "無職転生 Ⅱ OP",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1935,
+      "readingTime": 6,
+      "excerpt": "spiral — LONGMAN <span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"描(えが)いた地図(ちず)は引(ひ)き裂(さ)いた</span 昔日描绘的地图已破...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.626Z"
+    },
+    {
+      "id": "日本--日语歌词--歌词",
+      "relPath": "日本/日语歌词/ジングルベル歌词.md",
+      "title": "ジングルベル (Jingle Bells) — 日本经典童谣",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 723,
+      "readingTime": 3,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"走(はし)れそりよ 風(かぜ)のように</span 奔驰吧雪橇，像风一样 <span style=\"fontfami...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.626Z"
+    },
+    {
+      "id": "日本--日语学习",
+      "relPath": "日本/日语学习.md",
+      "title": "第七单元末文章翻译",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 5240,
+      "readingTime": 15,
+      "excerpt": "标日初级下68页翻译： 陈先生和王先生是留学生。在日本住了两年，学习了日语。他们马上就要回中国了。陈先生喜欢做料理，在各种日本料理店里做过兼职。好吃的天妇罗啊亲子烧啊之类的都会做。所以，回到中国后，他们说好要开一家日本料理小店。而且，中国人也想吃日本料理。这是两个人的梦想。 森先生上周，搬家了。地方是国际贸易中心的附近...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "第一课",
+          "id": "第一课"
+        },
+        {
+          "level": 2,
+          "text": "第二课",
+          "id": "第二课"
+        },
+        {
+          "level": 2,
+          "text": "第三课",
+          "id": "第三课"
+        },
+        {
+          "level": 2,
+          "text": "日语自我介绍",
+          "id": "日语自我介绍"
+        },
+        {
+          "level": 2,
+          "text": "第四课",
+          "id": "第四课"
+        },
+        {
+          "level": 2,
+          "text": "第五课 日语的词汇",
+          "id": "第五课-日语的词汇"
+        },
+        {
+          "level": 2,
+          "text": "第六课 各种各样的筷子文化",
+          "id": "第六课-各种各样的筷子文化"
+        },
+        {
+          "level": 2,
+          "text": "第七课",
+          "id": "第七课"
+        },
+        {
+          "level": 2,
+          "text": "第八课",
+          "id": "第八课"
+        },
+        {
+          "level": 2,
+          "text": "第十课 温泉大国 日本",
+          "id": "第十课-温泉大国-日本"
+        },
+        {
+          "level": 2,
+          "text": "第十一课 漫画和动漫",
+          "id": "第十一课-漫画和动漫"
+        },
+        {
+          "level": 2,
+          "text": "第十二课 方言和普通话",
+          "id": "第十二课-方言和普通话"
+        },
+        {
+          "level": 2,
+          "text": "第十三课 日本的人口正在减少-少子化",
+          "id": "第十三课-日本的人口正在减少-少子化"
+        },
+        {
+          "level": 2,
+          "text": "第十四课 日本的就职活动",
+          "id": "第十四课-日本的就职活动"
+        },
+        {
+          "level": 2,
+          "text": "第十五课",
+          "id": "第十五课"
+        },
+        {
+          "level": 2,
+          "text": "第十六课",
+          "id": "第十六课"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.625Z"
+    },
+    {
+      "id": "日本--日语歌词--love2000歌词",
+      "relPath": "日本/日语歌词/love2000歌词.md",
+      "title": "LOVE 2000 — 八奈見杏菜（CV: 遠野ひかる）",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1803,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"愛(あい)はどこからやってくるのでしょう</span 爱，究竟从何处降临呢 <span style=\"fontfam...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.625Z"
+    },
+    {
+      "id": "日本--日语歌词--nightdancer歌词",
+      "relPath": "日本/日语歌词/night dancer歌词.md",
+      "title": "NIGHT DANCER — imase",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1756,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"どうでもいいような夜(よる)だけど</span 虽是个无所谓的夜晚 <span style=\"fontfamily:...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.625Z"
+    },
+    {
+      "id": "日本--日本之行--第一次日本行财务计算",
+      "relPath": "日本/日本之行/第一次日本行财务计算.md",
+      "title": "第一次日本行财务计算",
+      "category": "日本/日本之行",
+      "tags": [],
+      "wordCount": 433,
+      "readingTime": 2,
+      "excerpt": "这部分是出发前的固定支出。 签证费用： ¥203.00 电话卡（10天30g）： ¥96.92 旅行保险： ¥50.00 一次性用品： ¥35.52 连接城市间的主要交通费用。 四段机票（长沙/上海/大阪/东京）： ¥1,862.50 跨城夜间巴士（丰桥东京）： ¥223.35 各站点的落脚成本。 大阪（2.12.4）...",
+      "headings": [
+        {
+          "level": 3,
+          "text": "日本行财务总结账单",
+          "id": "日本行财务总结账单"
+        },
+        {
+          "level": 4,
+          "text": "一、 行前行政与物资准备：¥385.44",
+          "id": "一-行前行政与物资准备-385-44"
+        },
+        {
+          "level": 4,
+          "text": "二、 大交通支出（往返+跨城）：¥2,085.85",
+          "id": "二-大交通支出-往返-跨城-2-085-85"
+        },
+        {
+          "level": 4,
+          "text": "三、 住宿支出：¥1,025.78",
+          "id": "三-住宿支出-1-025-78"
+        },
+        {
+          "level": 4,
+          "text": "四、 游玩中灵活消费：¥3,159.47",
+          "id": "四-游玩中灵活消费-3-159-47"
+        },
+        {
+          "level": 4,
+          "text": "五、 额外损耗（沉没成本）：¥1,132.60",
+          "id": "五-额外损耗-沉没成本-1-132-60"
+        },
+        {
+          "level": 3,
+          "text": "总计与数据分析",
+          "id": "总计与数据分析"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.624Z"
+    },
+    {
+      "id": "日本--日漫字幕组及发布资源地址",
+      "relPath": "日本/日漫字幕组及发布资源地址.md",
+      "title": "日漫字幕组及发布资源地址",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 846,
+      "readingTime": 3,
+      "excerpt": "主要整理制作日漫中日双语字幕的字幕组，以及它们的官方频道、字幕存档和公开发布页。 “简日”通常指简体中文 + 日文；“繁日”指繁体中文 + 日文；“简繁日”指简体中文 + 繁体中文 + 日文。不同字幕组并非每部作品都制作双语，查找时应以具体作品的发布标题为准。 | 平台 | 地址 | 用途 | | | | | | An...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "最常用的公开索引",
+          "id": "最常用的公开索引"
+        },
+        {
+          "level": 2,
+          "text": "主要字幕组",
+          "id": "主要字幕组"
+        },
+        {
+          "level": 3,
+          "text": "SweetSub",
+          "id": "sweetsub"
+        },
+        {
+          "level": 3,
+          "text": "喵萌奶茶屋（Nekomoe Kissaten）",
+          "id": "喵萌奶茶屋-nekomoe-kissaten-"
+        },
+        {
+          "level": 3,
+          "text": "绿茶字幕组（Studio GreenTea）",
+          "id": "绿茶字幕组-studio-greentea-"
+        },
+        {
+          "level": 3,
+          "text": "拨雪寻春（Haruhana）",
+          "id": "拨雪寻春-haruhana-"
+        },
+        {
+          "level": 3,
+          "text": "诸神字幕组（Kamigami）",
+          "id": "诸神字幕组-kamigami-"
+        },
+        {
+          "level": 3,
+          "text": "云歌字幕组 / 萌樱字幕组",
+          "id": "云歌字幕组-萌樱字幕组"
+        },
+        {
+          "level": 3,
+          "text": "Billion Meta Lab",
+          "id": "billion-meta-lab"
+        },
+        {
+          "level": 3,
+          "text": "猎户发布组",
+          "id": "猎户发布组"
+        },
+        {
+          "level": 3,
+          "text": "银色子弹字幕组（SBSUB）",
+          "id": "银色子弹字幕组-sbsub-"
+        },
+        {
+          "level": 3,
+          "text": "北宇治字幕组",
+          "id": "北宇治字幕组"
+        },
+        {
+          "level": 2,
+          "text": "其他项目型字幕组",
+          "id": "其他项目型字幕组"
+        },
+        {
+          "level": 2,
+          "text": "推荐检索格式",
+          "id": "推荐检索格式"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.624Z"
+    },
+    {
+      "id": "日本--日语五十音学习",
+      "relPath": "日本/日语五十音学习.md",
+      "title": "日语五十音图与假名学习手册",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 1039,
+      "readingTime": 3,
+      "excerpt": "[!TIP] 学习提示 平假名（ひらがな）：用于日常本土词汇、语法假名、汉字注音（振仮名）。 片假名（カタカナ）：用于外来语、拟声拟态词、人名地名及强调。 代码块中的字母（如 ）为对应假名的罗马字发音。 | 行 \\ 段 | a (ア段) | i (イ段) | u (ウ段) | e (エ段) | o (オ段) | | :...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "1. 平假名五十音图（清音）",
+          "id": "1-平假名五十音图-清音-"
+        },
+        {
+          "level": 2,
+          "text": "2. 片假名五十音图（清音）",
+          "id": "2-片假名五十音图-清音-"
+        },
+        {
+          "level": 2,
+          "text": "3. 浊音与半浊音",
+          "id": "3-浊音与半浊音"
+        },
+        {
+          "level": 3,
+          "text": "3.1 浊音（濁音 - だくおん）",
+          "id": "3-1-浊音-濁音---"
+        },
+        {
+          "level": 3,
+          "text": "3.2 半浊音（半濁音 - はんだくおん）",
+          "id": "3-2-半浊音-半濁音---"
+        },
+        {
+          "level": 2,
+          "text": "4. 拗音表（ようおん）",
+          "id": "4-拗音表-"
+        },
+        {
+          "level": 3,
+          "text": "4.1 清音拗音",
+          "id": "4-1-清音拗音"
+        },
+        {
+          "level": 3,
+          "text": "4.2 浊音 / 半浊音拗音",
+          "id": "4-2-浊音-半浊音拗音"
+        },
+        {
+          "level": 2,
+          "text": "5. 促音与长音规则",
+          "id": "5-促音与长音规则"
+        },
+        {
+          "level": 3,
+          "text": "5.1 促音（っ / ッ）",
+          "id": "5-1-促音-"
+        },
+        {
+          "level": 3,
+          "text": "5.2 长音（長音）",
+          "id": "5-2-长音-長音-"
+        },
+        {
+          "level": 2,
+          "text": "6. 常用外来语扩展假名",
+          "id": "6-常用外来语扩展假名"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.624Z"
+    },
+    {
+      "id": "我的个人简介",
+      "relPath": "我的个人简介.md",
+      "title": "我的个人简介",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 160,
+      "readingTime": 1,
+      "excerpt": "李庆辉，02年出生，男，电话号码是13204966084，邮箱是 3232170467@qq.com 本科毕业于中南林业科技大学计算机科学与技术专业，硕士就读于中南林业科技大学遥感科学与技术专业，研究方向是智能优化、多目标优化 熟练使用codex、antigravity、claudecode等智能体工具，利用智能体进行...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.623Z"
+    },
+    {
+      "id": "日本--JR日本广告语总结",
+      "relPath": "日本/JR日本广告语总结.md",
+      "title": "JR日本经典广告语总结",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 343,
+      "readingTime": 1,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"そうだ 京都(きょうと)、行(い)こう。</span 对了，去京都吧。 <span style=\"fontfamil...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.623Z"
+    },
+    {
+      "id": "日本--日本之行--日记-日本之行",
+      "relPath": "日本/日本之行/日记-日本之行.md",
+      "title": "整体的计划",
+      "category": "日本/日本之行",
+      "tags": [],
+      "wordCount": 1233,
+      "readingTime": 4,
+      "excerpt": "对我这次去日本的一些记录 这是调整之后的计划 整体行程如下： 2.1号，晚上坐动车从长沙到上海； 2.2号上午从上海浦东飞往大阪关西国际机场，然后直奔酒店，放好东西已经晚上了，直接去道顿堀打卡了格力高小人，晚上拉肚子了； 2.3号，一整天人感不适，上午去大阪逛了下，中午不舒服了直接回了酒店，躺了一下午，发烧了，药妆店买...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "1月30号",
+          "id": "1月30号"
+        },
+        {
+          "level": 2,
+          "text": "1月31号",
+          "id": "1月31号"
+        },
+        {
+          "level": 2,
+          "text": "2月1号",
+          "id": "2月1号"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.623Z"
+    },
+    {
+      "id": "Obsidian快捷排版教程",
+      "relPath": "Obsidian快捷排版教程.md",
+      "title": "Obsidian 快捷排版与常用操作教程",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 864,
+      "readingTime": 3,
+      "excerpt": "本教程为您汇总了在 Obsidian 中进行高效排版、文本格式化、表格制作以及常用快捷键的操作指南，帮助您快速掌握 Obsidian 的使用技巧。 在 Obsidian 中，你可以使用标准 Markdown 语法进行排版。 | 效果 | Markdown 语法 | Mac 快捷键 | 说明 | | : | : | : ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、 文本基础排版",
+          "id": "一-文本基础排版"
+        },
+        {
+          "level": 2,
+          "text": "二、 标题与分割线",
+          "id": "二-标题与分割线"
+        },
+        {
+          "level": 2,
+          "text": "二级标题 (主要小结标题)",
+          "id": "二级标题-主要小结标题-"
+        },
+        {
+          "level": 3,
+          "text": "三级标题 (子小结标题)",
+          "id": "三级标题-子小结标题-"
+        },
+        {
+          "level": 4,
+          "text": "四级标题",
+          "id": "四级标题"
+        },
+        {
+          "level": 2,
+          "text": "三、 列表与待办事项 (To-Do)",
+          "id": "三-列表与待办事项-to-do-"
+        },
+        {
+          "level": 3,
+          "text": "1. 无序列表",
+          "id": "1-无序列表"
+        },
+        {
+          "level": 3,
+          "text": "2. 有序列表",
+          "id": "2-有序列表"
+        },
+        {
+          "level": 3,
+          "text": "3. 待办事项 (Task List)",
+          "id": "3-待办事项-task-list-"
+        },
+        {
+          "level": 2,
+          "text": "四、 链接与引用",
+          "id": "四-链接与引用"
+        },
+        {
+          "level": 3,
+          "text": "1. 内部链接 (双链 - Obsidian 的灵魂)",
+          "id": "1-内部链接-双链---obsidian-的灵魂-"
+        },
+        {
+          "level": 3,
+          "text": "2. 外部链接",
+          "id": "2-外部链接"
+        },
+        {
+          "level": 3,
+          "text": "3. 引用块",
+          "id": "3-引用块"
+        },
+        {
+          "level": 3,
+          "text": "4. 炫酷的高亮呼叫块 (Callout)",
+          "id": "4-炫酷的高亮呼叫块-callout-"
+        },
+        {
+          "level": 2,
+          "text": "五、 表格制作",
+          "id": "五-表格制作"
+        },
+        {
+          "level": 3,
+          "text": "1. 基础语法",
+          "id": "1-基础语法"
+        },
+        {
+          "level": 2,
+          "text": "六、 常用全局快捷键 (Mac)",
+          "id": "六-常用全局快捷键-mac-"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.622Z"
+    },
+    {
+      "id": "agent学习",
+      "relPath": "agent学习.md",
+      "title": "agent学习",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 40,
+      "readingTime": 1,
+      "excerpt": "强化学习：通过与环境互动、根据反馈信号来优化自身行为的学习机制 基于大规模数据的预训练：",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.622Z"
+    },
+    {
+      "id": "NuWa-DerivingLightweightClass-SpecificVisionTransformersforEdgeDevices",
+      "relPath": "NuWa - Deriving Lightweight Class-Specific Vision Transformers for Edge Devices.md",
+      "title": "NuWa: Deriving Lightweight Class-Specific Vision Transformers for Edge Devices",
+      "category": "综合随笔",
+      "tags": [
+        "Params"
+      ],
+      "wordCount": 15748,
+      "readingTime": 45,
+      "excerpt": "Ziteng Wei1 Qiang He1,2, Bing Li1 Feifei Chen3,∗ Hai Jin1 Yun Yang2 1National Engineering Research Center for Big Data Technology and System, Services Computing...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Abstract",
+          "id": "abstract"
+        },
+        {
+          "level": 2,
+          "text": "1. Introduction",
+          "id": "1-introduction"
+        },
+        {
+          "level": 2,
+          "text": "2. Related Works",
+          "id": "2-related-works"
+        },
+        {
+          "level": 2,
+          "text": "3. Methodology",
+          "id": "3-methodology"
+        },
+        {
+          "level": 2,
+          "text": "3.1. Notations and Preliminaries",
+          "id": "3-1-notations-and-preliminaries"
+        },
+        {
+          "level": 2,
+          "text": "3.2. Self-Knowledge Purification",
+          "id": "3-2-self-knowledge-purification"
+        },
+        {
+          "level": 2,
+          "text": "3.3. Optimization-based Fast Pruning",
+          "id": "3-3-optimization-based-fast-pruning"
+        },
+        {
+          "level": 2,
+          "text": "4. Experiments and Analysis",
+          "id": "4-experiments-and-analysis"
+        },
+        {
+          "level": 2,
+          "text": "4.1. Main Results",
+          "id": "4-1-main-results"
+        },
+        {
+          "level": 2,
+          "text": "4.2. Analysis",
+          "id": "4-2-analysis"
+        },
+        {
+          "level": 2,
+          "text": "5. Conclusion",
+          "id": "5-conclusion"
+        },
+        {
+          "level": 2,
+          "text": "Acknowledgments",
+          "id": "acknowledgments"
+        },
+        {
+          "level": 2,
+          "text": "References",
+          "id": "references"
+        },
+        {
+          "level": 2,
+          "text": "6. Calculation of FLOPs",
+          "id": "6-calculation-of-flops"
+        },
+        {
+          "level": 2,
+          "text": "7. Limitations of Compression Methods",
+          "id": "7-limitations-of-compression-methods"
+        },
+        {
+          "level": 2,
+          "text": "8. Importance Metrics for Pruning",
+          "id": "8-importance-metrics-for-pruning"
+        },
+        {
+          "level": 2,
+          "text": "9. Ablation and Design Justification",
+          "id": "9-ablation-and-design-justification"
+        },
+        {
+          "level": 2,
+          "text": "10. Proof",
+          "id": "10-proof"
+        },
+        {
+          "level": 2,
+          "text": "Algorithm 1 Block-Uniform Pruning",
+          "id": "algorithm-1-block-uniform-pruning"
+        },
+        {
+          "level": 2,
+          "text": "11. Implementation Details",
+          "id": "11-implementation-details"
+        },
+        {
+          "level": 2,
+          "text": "12. Baselines",
+          "id": "12-baselines"
+        },
+        {
+          "level": 2,
+          "text": "13. Performance under Complex Settings",
+          "id": "13-performance-under-complex-settings"
+        },
+        {
+          "level": 2,
+          "text": "14. Pseudocode",
+          "id": "14-pseudocode"
+        },
+        {
+          "level": 2,
+          "text": "15. Limitations and Future Works",
+          "id": "15-limitations-and-future-works"
+        }
+      ],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.621Z"
+    },
+    {
+      "id": "MinerU_markdown_202605311324880_cd9abb02",
+      "relPath": "MinerU_markdown_202605311324880_cd9abb02.md",
+      "title": "Multi-Objective Neural Architecture Search for Cognitive Diagnosis: Balancing Accuracy and Interpretability With Probabilistic Models",
+      "category": "综合随笔",
+      "tags": [],
+      "wordCount": 9182,
+      "readingTime": 27,
+      "excerpt": "Yifei Sun , Mingkai Duan , Sicheng Hou , Shi Cheng , Maoguo Gong , Fellow, IEEE, and ZhiHui Zhan , Fellow, IEEE Abstract—Cognitive diagnosis (CD) is a fundament...",
+      "headings": [],
+      "date": "2026-10-03",
+      "mtime": "2026-10-03T13:52:29.620Z"
+    }
+  ]
+}
