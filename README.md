@@ -9,6 +9,7 @@
 
 - Pages Functions 提供只读接口：`/api/anime`、`/api/japanese`、`/api/friends`。
 - D1 绑定变量名使用 `DB` 或 `db`。
+- `wrangler.jsonc` 保存 D1 数据库名称、ID 和迁移目录；Cloudflare 页面函数仍使用控制台里已经配置的 `DB` 绑定。
 - 首次部署时，Pages 会通过 [`migrations/0001_initial_schema.sql`](migrations/0001_initial_schema.sql) 自动创建三张数据表。
 - 迁移只在 `main` 分支的生产部署中运行，预览部署不会修改生产数据库。
 - 添加或修改条目可以在 D1 SQL Console 操作；提交新记录后，页面会自动读取并显示。
@@ -20,7 +21,7 @@
 
 1. 在 **Settings → Environment variables** 的生产环境添加 `D1_DATABASE_NAME`，值为 D1 数据库名称。
 2. 添加 `CLOUDFLARE_ACCOUNT_ID`，值为 Cloudflare 账户 ID；再添加 `CLOUDFLARE_API_TOKEN`，使用仅授予 **D1 Edit** 权限的 API Token，并将它设为 Secret。不要把 Token 写进仓库或发到聊天里。
-3. 在 **Settings → Builds & deployments** 中将 Build command 设为 `bash build.sh`，Build output directory 设为 `.`。生产分支为 `main`。
+3. 在 **Settings → Builds & deployments** 中将 Build command 设为 `bash build.sh`，Build output directory 设为 `.`。生产分支为 `main`。本仓库的 `wrangler.jsonc` 只为 Wrangler 数据库迁移提供配置，不覆盖 Pages 控制台中的构建输出目录或函数绑定。
 4. 推送到 `main` 后，Cloudflare 会先应用尚未运行的迁移，再部署网站。之后新增表结构时，只需添加下一个编号的 `.sql` 文件（例如 `migrations/0002_add_tags.sql`）并推送。
 
 普通新增番剧、日语资料或友链内容不需要新建表；当前可在 D1 SQL Console 中向现有表添加记录。网站目前提供只读 API，尚未提供网页管理界面。

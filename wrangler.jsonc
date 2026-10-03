@@ -1,0 +1,12 @@
+{
+  "name": "profile",
+  "compatibility_date": "2026-10-03",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "profile",
+      "database_id": "03485a4f-ecec-4965-95c6-09e552e041f6",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
