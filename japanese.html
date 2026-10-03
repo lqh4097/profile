@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="格雷拉特整理的日语学习资料与常用链接。">
+  <meta name="description" content="格雷拉特的日语学习笔记：五十音、发音规则、常用表达与词汇观察。">
   <meta name="theme-color" content="#f4f5f1">
-  <title>日语资料 · 格雷拉特</title>
+  <title>日语学习 · 格雷拉特</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,28 +17,220 @@
       </a>
       <nav class="site-nav" aria-label="页面导航">
         <a href="anime.html">番剧</a>
-        <a href="japanese.html" aria-current="page">日语资料</a>
+        <a href="japanese.html" aria-current="page">日语学习</a>
         <a href="friends.html">友情链接</a>
       </nav>
     </header>
 
     <main class="subpage-main">
-      <section class="subpage-content" aria-labelledby="page-title">
+      <div class="subpage-content japanese-content">
         <a class="back-link" href="index.html"><span aria-hidden="true">←</span> 返回主页</a>
-        <div class="subpage-heading">
-          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Japanese notes</p>
-          <h1 class="subpage-title" id="page-title">日语资料</h1>
-          <p class="subpage-summary">把学习过程中常用的词典、课程、语法笔记和其他资料收在一起。</p>
-        </div>
-        <div class="entry-grid" data-collection-list="japanese" aria-live="polite"></div>
-        <div class="empty-panel" data-collection-empty>
-          <div class="empty-panel-content">
-            <span class="empty-symbol" aria-hidden="true">あ</span>
-            <h2>资料待整理</h2>
-            <p>添加资料后，可以按词汇、语法、听力等方向分类展示。</p>
+
+        <section class="subpage-heading" aria-labelledby="page-title">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Japanese learning notes</p>
+          <h1 class="subpage-title" id="page-title">日语学习</h1>
+          <p class="subpage-summary">从五十音和发音规则开始，也收录我在课文阅读中整理的表达与词汇观察。</p>
+        </section>
+
+        <nav class="study-index" aria-label="本页内容">
+          <a href="#kana"><span>01</span> 五十音</a>
+          <a href="#pronunciation"><span>02</span> 发音规律</a>
+          <a href="#expressions"><span>03</span> 常用表达</a>
+          <a href="#vocabulary"><span>04</span> 词汇笔记</a>
+        </nav>
+
+        <section class="study-section" id="kana" aria-labelledby="kana-title">
+          <div class="study-section-heading">
+            <span class="study-number">01 / 基础</span>
+            <h2 id="kana-title">五十音图</h2>
+            <p>按元音顺序查找平假名和片假名。横向排列的表格在手机上可以左右滑动。</p>
           </div>
-        </div>
-      </section>
+
+          <div class="kana-grid">
+            <article class="study-card kana-card">
+              <div class="study-card-heading">
+                <div><span class="study-label">HIRAGANA</span><h3>平假名</h3></div>
+                <span class="kana-mark" aria-hidden="true">あ</span>
+              </div>
+              <div class="kana-table-scroll" tabindex="0" aria-label="平假名五十音表，可横向滚动">
+                <table class="kana-table">
+                  <thead><tr><th scope="col">行</th><th scope="col">a</th><th scope="col">i</th><th scope="col">u</th><th scope="col">e</th><th scope="col">o</th></tr></thead>
+                  <tbody>
+                    <tr><th scope="row">あ行</th><td><span>あ</span><small>a</small></td><td><span>い</span><small>i</small></td><td><span>う</span><small>u</small></td><td><span>え</span><small>e</small></td><td><span>お</span><small>o</small></td></tr>
+                    <tr><th scope="row">か行</th><td><span>か</span><small>ka</small></td><td><span>き</span><small>ki</small></td><td><span>く</span><small>ku</small></td><td><span>け</span><small>ke</small></td><td><span>こ</span><small>ko</small></td></tr>
+                    <tr><th scope="row">さ行</th><td><span>さ</span><small>sa</small></td><td><span>し</span><small>shi</small></td><td><span>す</span><small>su</small></td><td><span>せ</span><small>se</small></td><td><span>そ</span><small>so</small></td></tr>
+                    <tr><th scope="row">た行</th><td><span>た</span><small>ta</small></td><td><span>ち</span><small>chi</small></td><td><span>つ</span><small>tsu</small></td><td><span>て</span><small>te</small></td><td><span>と</span><small>to</small></td></tr>
+                    <tr><th scope="row">な行</th><td><span>な</span><small>na</small></td><td><span>に</span><small>ni</small></td><td><span>ぬ</span><small>nu</small></td><td><span>ね</span><small>ne</small></td><td><span>の</span><small>no</small></td></tr>
+                    <tr><th scope="row">は行</th><td><span>は</span><small>ha</small></td><td><span>ひ</span><small>hi</small></td><td><span>ふ</span><small>fu</small></td><td><span>へ</span><small>he</small></td><td><span>ほ</span><small>ho</small></td></tr>
+                    <tr><th scope="row">ま行</th><td><span>ま</span><small>ma</small></td><td><span>み</span><small>mi</small></td><td><span>む</span><small>mu</small></td><td><span>め</span><small>me</small></td><td><span>も</span><small>mo</small></td></tr>
+                    <tr><th scope="row">や行</th><td><span>や</span><small>ya</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>ゆ</span><small>yu</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>よ</span><small>yo</small></td></tr>
+                    <tr><th scope="row">ら行</th><td><span>ら</span><small>ra</small></td><td><span>り</span><small>ri</small></td><td><span>る</span><small>ru</small></td><td><span>れ</span><small>re</small></td><td><span>ろ</span><small>ro</small></td></tr>
+                    <tr><th scope="row">わ行</th><td><span>わ</span><small>wa</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td class="kana-empty" aria-label="无对应假名">—</td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>を</span><small>wo</small></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="kana-footnote">拨音：ん <span>n</span></p>
+            </article>
+
+            <article class="study-card kana-card">
+              <div class="study-card-heading">
+                <div><span class="study-label">KATAKANA</span><h3>片假名</h3></div>
+                <span class="kana-mark" aria-hidden="true">ア</span>
+              </div>
+              <div class="kana-table-scroll" tabindex="0" aria-label="片假名五十音表，可横向滚动">
+                <table class="kana-table">
+                  <thead><tr><th scope="col">行</th><th scope="col">a</th><th scope="col">i</th><th scope="col">u</th><th scope="col">e</th><th scope="col">o</th></tr></thead>
+                  <tbody>
+                    <tr><th scope="row">ア行</th><td><span>ア</span><small>a</small></td><td><span>イ</span><small>i</small></td><td><span>ウ</span><small>u</small></td><td><span>エ</span><small>e</small></td><td><span>オ</span><small>o</small></td></tr>
+                    <tr><th scope="row">カ行</th><td><span>カ</span><small>ka</small></td><td><span>キ</span><small>ki</small></td><td><span>ク</span><small>ku</small></td><td><span>ケ</span><small>ke</small></td><td><span>コ</span><small>ko</small></td></tr>
+                    <tr><th scope="row">サ行</th><td><span>サ</span><small>sa</small></td><td><span>シ</span><small>shi</small></td><td><span>ス</span><small>su</small></td><td><span>セ</span><small>se</small></td><td><span>ソ</span><small>so</small></td></tr>
+                    <tr><th scope="row">タ行</th><td><span>タ</span><small>ta</small></td><td><span>チ</span><small>chi</small></td><td><span>ツ</span><small>tsu</small></td><td><span>テ</span><small>te</small></td><td><span>ト</span><small>to</small></td></tr>
+                    <tr><th scope="row">ナ行</th><td><span>ナ</span><small>na</small></td><td><span>ニ</span><small>ni</small></td><td><span>ヌ</span><small>nu</small></td><td><span>ネ</span><small>ne</small></td><td><span>ノ</span><small>no</small></td></tr>
+                    <tr><th scope="row">ハ行</th><td><span>ハ</span><small>ha</small></td><td><span>ヒ</span><small>hi</small></td><td><span>フ</span><small>fu</small></td><td><span>ヘ</span><small>he</small></td><td><span>ホ</span><small>ho</small></td></tr>
+                    <tr><th scope="row">マ行</th><td><span>マ</span><small>ma</small></td><td><span>ミ</span><small>mi</small></td><td><span>ム</span><small>mu</small></td><td><span>メ</span><small>me</small></td><td><span>モ</span><small>mo</small></td></tr>
+                    <tr><th scope="row">ヤ行</th><td><span>ヤ</span><small>ya</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>ユ</span><small>yu</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>ヨ</span><small>yo</small></td></tr>
+                    <tr><th scope="row">ラ行</th><td><span>ラ</span><small>ra</small></td><td><span>リ</span><small>ri</small></td><td><span>ル</span><small>ru</small></td><td><span>レ</span><small>re</small></td><td><span>ロ</span><small>ro</small></td></tr>
+                    <tr><th scope="row">ワ行</th><td><span>ワ</span><small>wa</small></td><td class="kana-empty" aria-label="无对应假名">—</td><td class="kana-empty" aria-label="无对应假名">—</td><td class="kana-empty" aria-label="无对应假名">—</td><td><span>ヲ</span><small>wo</small></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="kana-footnote">拨音：ン <span>n</span></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="study-section" id="pronunciation" aria-labelledby="pronunciation-title">
+          <div class="study-section-heading">
+            <span class="study-number">02 / 读音</span>
+            <h2 id="pronunciation-title">发音规律</h2>
+            <p>先记住假名组合和拍子的变化，阅读时会更容易辨认。</p>
+          </div>
+
+          <div class="study-card sound-card">
+            <div class="study-card-heading">
+              <div><span class="study-label">DAKUON & HANDAKUON</span><h3>浊音与半浊音</h3></div>
+              <span class="study-card-aside">゛ / ゜</span>
+            </div>
+            <div class="sound-rows" tabindex="0" aria-label="浊音与半浊音对照，可横向滚动">
+              <div class="sound-row"><span class="sound-row-label">が行</span><span>が <small>ga</small></span><span>ぎ <small>gi</small></span><span>ぐ <small>gu</small></span><span>げ <small>ge</small></span><span>ご <small>go</small></span></div>
+              <div class="sound-row"><span class="sound-row-label">ざ行</span><span>ざ <small>za</small></span><span>じ <small>ji</small></span><span>ず <small>zu</small></span><span>ぜ <small>ze</small></span><span>ぞ <small>zo</small></span></div>
+              <div class="sound-row"><span class="sound-row-label">だ行</span><span>だ <small>da</small></span><span>ぢ <small>ji</small></span><span>づ <small>zu</small></span><span>で <small>de</small></span><span>ど <small>do</small></span></div>
+              <div class="sound-row"><span class="sound-row-label">ば行</span><span>ば <small>ba</small></span><span>び <small>bi</small></span><span>ぶ <small>bu</small></span><span>べ <small>be</small></span><span>ぼ <small>bo</small></span></div>
+              <div class="sound-row"><span class="sound-row-label">ぱ行</span><span>ぱ <small>pa</small></span><span>ぴ <small>pi</small></span><span>ぷ <small>pu</small></span><span>ぺ <small>pe</small></span><span>ぽ <small>po</small></span></div>
+            </div>
+            <p class="study-footnote">じ / ぢ、ず / づ在日常日语中的发音相同，书写时通常使用 じ、ず。</p>
+          </div>
+
+          <div class="study-card yoon-card">
+            <div class="study-card-heading">
+              <div><span class="study-label">YŌON</span><h3>拗音</h3></div>
+              <span class="study-card-aside">ゃ・ゅ・ょ</span>
+            </div>
+            <p class="study-card-intro">由い段假名与小写的「ゃ、ゅ、ょ」组合而成，作为一拍连读。</p>
+            <div class="yoon-list" tabindex="0" aria-label="拗音对照，可横向滚动">
+              <div><span>き行</span><b>きゃ <small>kya</small></b><b>きゅ <small>kyu</small></b><b>きょ <small>kyo</small></b></div>
+              <div><span>し行</span><b>しゃ <small>sha</small></b><b>しゅ <small>shu</small></b><b>しょ <small>sho</small></b></div>
+              <div><span>ち行</span><b>ちゃ <small>cha</small></b><b>ちゅ <small>chu</small></b><b>ちょ <small>cho</small></b></div>
+              <div><span>に行</span><b>にゃ <small>nya</small></b><b>にゅ <small>nyu</small></b><b>にょ <small>nyo</small></b></div>
+              <div><span>ひ行</span><b>ひゃ <small>hya</small></b><b>ひゅ <small>hyu</small></b><b>ひょ <small>hyo</small></b></div>
+              <div><span>み行</span><b>みゃ <small>mya</small></b><b>みゅ <small>myu</small></b><b>みょ <small>myo</small></b></div>
+              <div><span>り行</span><b>りゃ <small>rya</small></b><b>りゅ <small>ryu</small></b><b>りょ <small>ryo</small></b></div>
+              <div><span>ぎ行</span><b>ぎゃ <small>gya</small></b><b>ぎゅ <small>gyu</small></b><b>ぎょ <small>gyo</small></b></div>
+              <div><span>じ行</span><b>じゃ <small>ja</small></b><b>じゅ <small>ju</small></b><b>じょ <small>jo</small></b></div>
+              <div><span>び行</span><b>びゃ <small>bya</small></b><b>びゅ <small>byu</small></b><b>びょ <small>byo</small></b></div>
+              <div><span>ぴ行</span><b>ぴゃ <small>pya</small></b><b>ぴゅ <small>pyu</small></b><b>ぴょ <small>pyo</small></b></div>
+            </div>
+          </div>
+
+          <div class="rhythm-grid">
+            <article class="study-card rhythm-card">
+              <span class="study-label">SMALL っ</span>
+              <h3>促音：停顿一拍</h3>
+              <p>小写的「っ / ッ」本身不发音，发音时稍作停顿；输入时通常双写后一个辅音。</p>
+              <div class="example-line"><span>きっぷ</span><small>ki<strong>p</strong>pu</small><span>チケット</span><small>chi<strong>k</strong>etto</small></div>
+            </article>
+            <article class="study-card rhythm-card">
+              <span class="study-label">LONG VOWEL</span>
+              <h3>长音：延长一拍</h3>
+              <p>平假名根据前一个元音选择「あ、い、う、え、お」；片假名通常使用长音符号「ー」。</p>
+              <div class="example-line"><span>おかあさん</span><span>せんせい</span><span>コーヒー</span><span>ラーメン</span></div>
+            </article>
+          </div>
+
+          <div class="study-card foreign-sounds">
+            <div><span class="study-label">FOREIGN SOUNDS</span><h3>外来语组合</h3></div>
+            <p><b>シェ</b>（she）　<b>ティ</b>（ti）　<b>ファ</b>（fa）　<b>ウィ</b>（wi）　<b>ヴァ</b>（va）</p>
+            <span class="study-footnote">常用于表示日语原有音节中没有的外来语发音。</span>
+          </div>
+        </section>
+
+        <section class="study-section" id="expressions" aria-labelledby="expressions-title">
+          <div class="study-section-heading">
+            <span class="study-number">03 / 表达</span>
+            <h2 id="expressions-title">自我介绍练习</h2>
+            <p>摘自我的口语练习笔记；姓名和出身地用占位符代替，使用时按自己的情况替换。</p>
+          </div>
+          <article class="self-intro-card">
+            <span class="study-label">はじめまして</span>
+            <p>はじめまして。<span>〇〇</span>と申します。</p>
+            <p>出身は<span>〇〇</span>です。</p>
+            <p>趣味はアニメを見ることと、マウンテンバイクに乗ることです。</p>
+            <p>本日はお会いできて嬉しいです。どうぞよろしくお願いいたします。</p>
+            <div class="self-intro-translation">初次见面。我叫……。我来自……。我的爱好是看动画和骑山地车。今天很高兴见到您，请多关照。</div>
+          </article>
+        </section>
+
+        <section class="study-section" id="vocabulary" aria-labelledby="vocabulary-title">
+          <div class="study-section-heading">
+            <span class="study-number">04 / 词汇</span>
+            <h2 id="vocabulary-title">课文中的词汇观察</h2>
+            <p>根据课文翻译笔记提炼的复习要点，不直接搬运整段教材译文。</p>
+          </div>
+          <div class="vocabulary-grid">
+            <article class="study-card vocabulary-card">
+              <span class="study-label">WORD ORIGINS</span>
+              <h3>日语词汇的来源</h3>
+              <dl class="word-types">
+                <div><dt>和语</dt><dd>日语原有词汇。</dd></div>
+                <div><dt>汉语</dt><dd>来自汉字词汇，常采用音读。</dd></div>
+                <div><dt>外来语</dt><dd>来自其他语言，通常用片假名书写。</dd></div>
+                <div><dt>混合语</dt><dd>由两种或更多来源组合而成。</dd></div>
+              </dl>
+            </article>
+            <article class="study-card vocabulary-card">
+              <span class="study-label">SAME KANJI, DIFFERENT MEANING</span>
+              <h3>读音不同，意思也会变</h3>
+              <div class="word-example"><strong>生物</strong><span>せいぶつ：生物、动植物的总称</span></div>
+              <div class="word-example"><strong>生物</strong><span>なまもの：生的食物</span></div>
+              <p class="study-footnote">汉字相同也要结合读音和语境理解，不能只按中文意思猜测。</p>
+            </article>
+            <article class="study-card vocabulary-card">
+              <span class="study-label">CULTURAL CONTEXT</span>
+              <h3>旅館与ホテル</h3>
+              <p>课文笔记里记录了这组词带来的住宿印象差别：说「旅館」时，容易联想到榻榻米和被褥；「ホテル」则更容易让人想到现代客房和床。</p>
+              <p class="study-footnote">这是一种常见联想，具体设施仍以店铺实际情况为准。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="study-section resource-section" aria-labelledby="resource-title">
+          <div class="study-section-heading">
+            <span class="study-number">05 / 收藏</span>
+            <h2 id="resource-title">日语资料链接</h2>
+            <p>适合继续补充词典、课程和其他学习网站。这里的链接条目仍从网站数据库读取。</p>
+          </div>
+          <div class="entry-grid" data-collection-list="japanese" aria-live="polite"></div>
+          <div class="empty-panel" data-collection-empty>
+            <div class="empty-panel-content">
+              <span class="empty-symbol" aria-hidden="true">日</span>
+              <h2>资料链接待添加</h2>
+              <p>五十音和学习笔记已经整理在本页；词典、课程等外部链接可以之后再收录。</p>
+            </div>
+          </div>
+        </section>
+
+        <p class="study-source-note">本页内容整理自我的 Obsidian 日语学习笔记，并针对网页阅读做了重新编排。</p>
+      </div>
     </main>
   </div>
   <script src="collection-renderer.js" defer></script>

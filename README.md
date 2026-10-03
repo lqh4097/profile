@@ -3,7 +3,7 @@
 欢迎访问我的个人主页代码仓库！
 
 ## 🚀 简介
-本项目是一个基于 HTML、CSS 和 JavaScript 的个人网站，部署在 **Cloudflare Pages**。番剧、日语资料和友情链接通过 Pages Functions 从 Cloudflare D1 读取。
+本项目是一个基于 HTML、CSS 和 JavaScript 的个人网站，部署在 **Cloudflare Pages**。日语学习笔记直接展示在网页中；番剧、日语资料链接和友情链接通过 Pages Functions 从 Cloudflare D1 读取。
 
 ## 🗃️ D1 内容数据
 
