@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="格雷拉特的个人主页，分享看过的番剧、日语学习资料与友情链接。">
+  <meta name="description" content="格雷拉特的个人主页与博客，分享技术实践、个人项目、看过的番剧与日语学习笔记。">
   <meta name="theme-color" content="#f4f5f1">
-  <title>格雷拉特 · 个人主页</title>
+  <title>格雷拉特 · 个人主页 &amp; 博客</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,6 +16,8 @@
         <span>格雷拉特</span>
       </a>
       <nav class="site-nav" aria-label="页面导航">
+        <a href="#writing">文章</a>
+        <a href="#projects">项目</a>
         <a href="anime.html">番剧</a>
         <a href="japanese.html">日语学习</a>
         <a href="friends.html">友情链接</a>
@@ -23,30 +25,31 @@
     </header>
 
     <main id="home">
+      <!-- 00 / 首屏 Hero 介绍 -->
       <section class="hero" aria-labelledby="page-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Personal space</p>
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Personal Space &amp; Garden</p>
           <p class="greeting">你好，欢迎来到</p>
           <h1 id="page-title">格雷拉特<span class="title-period">.</span></h1>
           <p class="role">开发者<span class="role-separator">/</span>创作者<span class="role-separator">/</span>探索者</p>
-          <p class="intro">这里记录我正在构建的项目、技术实践和生活灵感。欢迎逛逛，也欢迎在 GitHub 上交流。</p>
+          <p class="intro">这里是我的个人网络花园，记录我正在构建的开源项目、Web 技术实践、文化消费与生活灵感。欢迎阅读交流。</p>
 
           <ul class="topics" aria-label="关注方向">
             <li>Web Development</li>
-            <li>Open Source</li>
-            <li>Cloudflare Pages</li>
+            <li>Cloudflare Pages &amp; D1</li>
+            <li>Japanese Study</li>
             <li>Tech &amp; Life</li>
           </ul>
 
           <nav class="actions" aria-label="相关链接">
-            <a class="button-primary" href="https://github.com/lqh4097" target="_blank" rel="noopener noreferrer">
-              GitHub 主页
+            <a class="button-primary" href="#writing">
+              阅读最新文章
               <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M4.5 10h10.75M10 4.75 15.25 10 10 15.25" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </a>
-            <a class="button-secondary" href="https://github.com/lqh4097/profile" target="_blank" rel="noopener noreferrer">
-              查看本站源码
+            <a class="button-secondary" href="https://github.com/lqh4097" target="_blank" rel="noopener noreferrer">
+              GitHub 主页
               <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M5.5 14.5 14 6m-7.75 0H14v7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
@@ -54,20 +57,280 @@
           </nav>
         </div>
 
-        <div class="art-panel" aria-hidden="true">
-          <div class="art-grid"></div>
-          <div class="orbit"></div>
-          <span class="monogram">L</span>
-          <span class="art-label">Personal / Web</span>
-          <span class="art-index">01 — 26</span>
-          <div class="art-caption">
-            <span>Build · Learn · Share</span>
-            <span>格雷拉特</span>
+        <!-- 右侧：个人名片与状态看板 -->
+        <aside class="profile-card" aria-label="个人概况与当前状态">
+          <div class="profile-card-header">
+            <div class="status-indicator">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span class="status-text">Active / Building</span>
+            </div>
+            <span class="status-tag">2026</span>
           </div>
+
+          <div class="profile-avatar-wrap">
+            <div class="profile-avatar-ring">
+              <div class="profile-avatar-inner">L</div>
+            </div>
+            <div class="profile-bio">
+              <h2 class="profile-name">格雷拉特</h2>
+              <p class="profile-handle">@lqh4097</p>
+            </div>
+          </div>
+
+          <div class="profile-info-grid">
+            <div class="profile-info-item">
+              <span class="info-label">📍 Focus</span>
+              <span class="info-val">Web &amp; Serverless</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">🌱 Learning</span>
+              <span class="info-val">Japanese N4-N3</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">💻 Working On</span>
+              <span class="info-val">Personal Blog System</span>
+            </div>
+            <div class="profile-info-item">
+              <span class="info-label">🎧 Hobby</span>
+              <span class="info-val">Anime &amp; Cycling</span>
+            </div>
+          </div>
+
+          <div class="profile-card-footer">
+            <span class="profile-motto">“Build · Learn · Share”</span>
+            <div class="profile-pills">
+              <span>Cloudflare</span>
+              <span>D1</span>
+              <span>Vanilla Web</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- 01 / 最新博客文章 -->
+      <section class="home-section" id="writing" aria-labelledby="writing-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>01 / Writing</p>
+            <h2 class="section-title" id="writing-title">最新文章</h2>
+            <p class="section-summary">记录技术实践心得、边缘计算架构探索以及个人的学习与思考。</p>
+          </div>
+        </div>
+
+        <div class="articles-grid">
+          <article class="article-card">
+            <div class="article-meta">
+              <span class="article-badge">技术实践</span>
+              <time datetime="2026-03-28">2026-03-28</time>
+              <span class="article-dot" aria-hidden="true">·</span>
+              <span>5 min read</span>
+            </div>
+            <h3 class="article-title">
+              <a href="#">基于 Cloudflare Pages + D1 构建现代轻量个人主页与博客系统</a>
+            </h3>
+            <p class="article-excerpt">
+              探讨如何利用 Cloudflare 边缘网络、Pages Functions 与 D1 关系型数据库，构建一个零运维成本、全球毫秒级响应且具备动态数据能力的轻量个人站点。
+            </p>
+            <div class="article-tags">
+              <span>Cloudflare</span>
+              <span>Serverless</span>
+              <span>SQLite</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <span class="article-badge">学习沉淀</span>
+              <time datetime="2026-03-15">2026-03-15</time>
+              <span class="article-dot" aria-hidden="true">·</span>
+              <span>8 min read</span>
+            </div>
+            <h3 class="article-title">
+              <a href="japanese.html">从零开始的日语自学：五十音、发音规律与体系化积累</a>
+            </h3>
+            <p class="article-excerpt">
+              从日常 Obsidian 笔记到结构化 Web 展示，整理我在假名拼读、浊音半浊音以及课文阅读中沉淀的高频词汇与思维模型。
+            </p>
+            <div class="article-tags">
+              <span>日语学习</span>
+              <span>Obsidian</span>
+              <span>方法论</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <span class="article-badge">数字思考</span>
+              <time datetime="2026-02-20">2026-02-20</time>
+              <span class="article-dot" aria-hidden="true">·</span>
+              <span>4 min read</span>
+            </div>
+            <h3 class="article-title">
+              <a href="#">在喧嚣的算法网络里，搭建属于自己的“数字花园”</a>
+            </h3>
+            <p class="article-excerpt">
+              不追求繁重的前端框架与算法推荐，通过纯粹的原生 Web 技术，构建一个自主可控、宁静且真正属于自己的个人网络居所。
+            </p>
+            <div class="article-tags">
+              <span>数字花园</span>
+              <span>独立博客</span>
+              <span>思考</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 02 / 精选项目 -->
+      <section class="home-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>02 / Projects</p>
+            <h2 class="section-title" id="projects-title">精选项目</h2>
+            <p class="section-summary">在实际动手实践中构建的个人工具、开源实践与实验性产品。</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-kind">Web Application</span>
+              <span class="project-status">已上线</span>
+            </div>
+            <h3 class="project-title">Profile &amp; Digital Garden</h3>
+            <p class="project-desc">
+              本站源码项目。采用原生 HTML5/CSS3/JavaScript 与 Cloudflare Pages + D1 构建，实现零打包依赖、极速访问体验的个人门户与知识库。
+            </p>
+            <div class="project-tags">
+              <span>Cloudflare Pages</span>
+              <span>D1 SQLite</span>
+              <span>Pages Functions</span>
+              <span>Vanilla CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/lqh4097/profile" target="_blank" rel="noopener noreferrer">
+                查看源码 ↗
+              </a>
+              <a href="https://profile-r3e.pages.dev" target="_blank" rel="noopener noreferrer">
+                线上地址 ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-kind">Knowledge Hub</span>
+              <span class="project-status">持续维护</span>
+            </div>
+            <h3 class="project-title">Japanese Interactive Notebook</h3>
+            <p class="project-desc">
+              个人日语学习笔记的 Web 化呈现，包含移动端适配的五十音滑动对照表、发音音变规律、口语练习模版与语义辨析。
+            </p>
+            <div class="project-tags">
+              <span>Interactive UI</span>
+              <span>Responsive Design</span>
+              <span>Obsidian Notes</span>
+            </div>
+            <div class="project-links">
+              <a href="japanese.html">查阅笔记 →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-kind">Serverless System</span>
+              <span class="project-status">演进中</span>
+            </div>
+            <h3 class="project-title">Media &amp; Link Tracker</h3>
+            <p class="project-desc">
+              基于 Cloudflare D1 边缘数据库与 Pages Functions 的数据管理模块，支撑全站番剧看单、资源收录与友链的异步增删与卡片渲染。
+            </p>
+            <div class="project-tags">
+              <span>Cloudflare D1</span>
+              <span>RESTful API</span>
+              <span>SQL Migrations</span>
+            </div>
+            <div class="project-links">
+              <a href="anime.html">浏览番剧片单 →</a>
+              <a href="friends.html">查看友情链接 →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 03 / 专栏速览 Explore Hub -->
+      <section class="home-section" id="explore" aria-labelledby="explore-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>03 / Explore</p>
+            <h2 class="section-title" id="explore-title">探索更多专栏</h2>
+            <p class="section-summary">主页之外的其他特色板块，欢迎随性翻阅。</p>
+          </div>
+        </div>
+
+        <div class="explore-grid">
+          <a class="explore-card" href="anime.html">
+            <div class="explore-card-icon">🎬</div>
+            <div class="explore-card-content">
+              <h3>看过的番剧</h3>
+              <p>记录看过的动漫作品、评分与观后感，从 D1 数据库实时拉取。</p>
+            </div>
+            <span class="explore-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a class="explore-card" href="japanese.html">
+            <div class="explore-card-icon">🇯🇵</div>
+            <div class="explore-card-content">
+              <h3>日语学习专栏</h3>
+              <p>五十音速查、浊音拗音图谱、自我介绍练习与课文笔记要点。</p>
+            </div>
+            <span class="explore-arrow" aria-hidden="true">→</span>
+          </a>
+
+          <a class="explore-card" href="friends.html">
+            <div class="explore-card-icon">🤝</div>
+            <div class="explore-card-content">
+              <h3>友情链接</h3>
+              <p>记录志同道合的朋友们以及值得经常去逛逛的个人站点与博客。</p>
+            </div>
+            <span class="explore-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
     </main>
 
+    <!-- 页脚 Footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="brand-mark" aria-hidden="true">L</span>
+            <span class="footer-name">格雷拉特</span>
+          </div>
+          <p class="footer-bio">Build · Learn · Share. 一个关于技术、学习与生活的个人自留地。</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="页脚链接">
+          <div class="footer-nav-col">
+            <span class="footer-col-title">导航</span>
+            <a href="#writing">文章专区</a>
+            <a href="#projects">精选项目</a>
+            <a href="anime.html">看过的番剧</a>
+            <a href="japanese.html">日语学习</a>
+            <a href="friends.html">友情链接</a>
+          </div>
+          <div class="footer-nav-col">
+            <span class="footer-col-title">社交 &amp; 代码</span>
+            <a href="https://github.com/lqh4097" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/lqh4097/profile" target="_blank" rel="noopener noreferrer">本站源码</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 格雷拉特 (lqh4097). All rights reserved.</p>
+        <p class="powered-by">Powered by <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages</a> &amp; D1</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
