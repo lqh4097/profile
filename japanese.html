@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="格雷拉特整理的日语学习资料与常用链接。">
+  <meta name="theme-color" content="#f4f5f1">
+  <title>日语资料 · 格雷拉特</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="返回格雷拉特主页">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>格雷拉特</span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="anime.html">番剧</a>
+        <a href="japanese.html" aria-current="page">日语资料</a>
+        <a href="friends.html">友情链接</a>
+      </nav>
+    </header>
+
+    <main class="subpage-main">
+      <section class="subpage-content" aria-labelledby="page-title">
+        <a class="back-link" href="index.html"><span aria-hidden="true">←</span> 返回主页</a>
+        <div class="subpage-heading">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Japanese notes</p>
+          <h1 class="subpage-title" id="page-title">日语资料</h1>
+          <p class="subpage-summary">把学习过程中常用的词典、课程、语法笔记和其他资料收在一起。</p>
+        </div>
+        <div class="entry-grid" data-collection-list="japanese" aria-live="polite"></div>
+        <div class="empty-panel" data-collection-empty>
+          <div class="empty-panel-content">
+            <span class="empty-symbol" aria-hidden="true">あ</span>
+            <h2>资料待整理</h2>
+            <p>添加资料后，可以按词汇、语法、听力等方向分类展示。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="collection-renderer.js" defer></script>
+</body>
+</html>
