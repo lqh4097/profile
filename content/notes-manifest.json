@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T13:52:29.639Z",
+  "updatedAt": "2026-10-04T06:13:18.594Z",
   "totalNotes": 30,
   "categories": [
     {
@@ -43,132 +43,6 @@
   ],
   "notes": [
     {
-      "id": "随笔--随笔",
-      "relPath": "随笔/随笔.md",
-      "title": "随笔",
-      "category": "随笔",
-      "tags": [],
-      "wordCount": 45,
-      "readingTime": 1,
-      "excerpt": "想到啥写啥 谷歌ai，我之前的学生会员掉了，后面可以继续再补学生认证，然后又有一年，但这个留在最后",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.632Z"
-    },
-    {
-      "id": "计算机技术--代理协议对比",
-      "relPath": "计算机技术/代理协议对比.md",
-      "title": "代理协议对比",
-      "category": "计算机技术",
-      "tags": [],
-      "wordCount": 428,
-      "readingTime": 2,
-      "excerpt": "最早流行的代理协议，原理简单，加密流量 特征明显，目前已被 GFW 精准识别，不推荐新建节点使用 老节点兼容性好，客户端支持最广 V2Ray 自研协议，带时间校验（客户端与服务端时间需同步） 流量特征比 SS 更隐蔽，但仍可被检测 已逐渐被 VLESS 取代 VMess 的轻量化改进版，去掉冗余加密（通常配合 TLS ...",
-      "headings": [
-        {
-          "level": 2,
-          "text": "Shadowsocks（SS）",
-          "id": "shadowsocks-ss-"
-        },
-        {
-          "level": 2,
-          "text": "VMess",
-          "id": "vmess"
-        },
-        {
-          "level": 2,
-          "text": "VLESS",
-          "id": "vless"
-        },
-        {
-          "level": 2,
-          "text": "Trojan",
-          "id": "trojan"
-        },
-        {
-          "level": 2,
-          "text": "XTLS Reality",
-          "id": "xtls-reality"
-        },
-        {
-          "level": 2,
-          "text": "Hysteria2",
-          "id": "hysteria2"
-        },
-        {
-          "level": 2,
-          "text": "TUIC",
-          "id": "tuic"
-        },
-        {
-          "level": 2,
-          "text": "横向对比",
-          "id": "横向对比"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.631Z"
-    },
-    {
-      "id": "计算机技术--翻墙技术",
-      "relPath": "计算机技术/翻墙技术.md",
-      "title": "网络服务器配置",
-      "category": "计算机技术",
-      "tags": [],
-      "wordCount": 264,
-      "readingTime": 1,
-      "excerpt": "VPS 初始化设置 + 代理协议一键安装脚本 弹出提示直接回车即可 输出含 即成功 macka/v2rayagent 一键脚本，支持 VLESS / Trojan / XTLS Reality 等多种协议： 3XUI 开源 Web 控制面板： v2rayagent个人用，3xui多人使用管理，在虚拟机上配置好后都需要去...",
-      "headings": [
-        {
-          "level": 2,
-          "text": "一、基础环境配置",
-          "id": "一-基础环境配置"
-        },
-        {
-          "level": 3,
-          "text": "1. 切换到 root",
-          "id": "1-切换到-root"
-        },
-        {
-          "level": 3,
-          "text": "2. 更新系统",
-          "id": "2-更新系统"
-        },
-        {
-          "level": 3,
-          "text": "3. 设置时区（东八区）",
-          "id": "3-设置时区-东八区-"
-        },
-        {
-          "level": 3,
-          "text": "4. 验证时间",
-          "id": "4-验证时间"
-        },
-        {
-          "level": 3,
-          "text": "5. 开启 BBR 拥塞控制",
-          "id": "5-开启-bbr-拥塞控制"
-        },
-        {
-          "level": 3,
-          "text": "6. 生效配置",
-          "id": "6-生效配置"
-        },
-        {
-          "level": 3,
-          "text": "7. 验证 BBR 是否开启",
-          "id": "7-验证-bbr-是否开启"
-        },
-        {
-          "level": 2,
-          "text": "二、安装代理协议",
-          "id": "二-安装代理协议"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.631Z"
-    },
-    {
       "id": "讨论主题钱是不是万恶之源",
       "relPath": "讨论主题：钱是不是万恶之源.md",
       "title": "讨论主题：钱是不是万恶之源",
@@ -194,8 +68,8 @@
           "id": "观察员问题"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.631Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.586Z"
     },
     {
       "id": "论文阅读笔记_PMB-CAS",
@@ -318,40 +192,21 @@
           "id": "六-关键术语"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.631Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.586Z"
     },
     {
-      "id": "科研方向--研究计划",
-      "relPath": "科研方向/研究计划.md",
-      "title": "研究计划",
-      "category": "科研方向",
+      "id": "随笔--随笔",
+      "relPath": "随笔/随笔.md",
+      "title": "随笔",
+      "category": "随笔",
       "tags": [],
-      "wordCount": 688,
-      "readingTime": 2,
-      "excerpt": "初步想法：面向边缘设备的鸟鸣识别轻量化模型搜索。以 RK3566 这类算力受限的边缘硬件为目标平台，研究如何通过多目标神经架构搜索，在鸟鸣分类精度和实际推理延迟之间找到较优平衡。 目前考虑主线： 1. 先构建一个小规模鸟鸣分类数据集，大约 58 类鸟种加背景噪声，数据来源主要是 xenocanto 或者 BirdCLE...",
+      "wordCount": 45,
+      "readingTime": 1,
+      "excerpt": "想到啥写啥 谷歌ai，我之前的学生会员掉了，后面可以继续再补学生认证，然后又有一年，但这个留在最后",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.630Z"
-    },
-    {
-      "id": "科研方向--遗传算法",
-      "relPath": "科研方向/遗传算法.md",
-      "title": "算法概述",
-      "category": "科研方向",
-      "tags": [],
-      "wordCount": 1337,
-      "readingTime": 4,
-      "excerpt": "遗传算法是一种模拟达尔文生物进化论的随机搜索启发式算法，是一种经典的进化计算算法 核心思想：通过对种群进行选择、交叉和变异等遗传操作，使优良个体在进化过程中逐渐占据主导，从而在复杂的搜索空间中逼近或找到最优解（枚举法、启发式算法、搜索算法） 常用于：函数优化、组合优化、生产调度问题等 算法主要包括：编码、产生初始种群、...",
-      "headings": [
-        {
-          "level": 3,
-          "text": "1-2月份安排",
-          "id": "1-2月份安排"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.630Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.586Z"
     },
     {
       "id": "计算机技术--AI订阅",
@@ -414,8 +269,8 @@
           "id": "三-防封号与订阅避坑指南"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.630Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.585Z"
     },
     {
       "id": "计算机技术--Antigravity与Codex代理配置指南",
@@ -518,8 +373,121 @@
           "id": "三-常见问题与排查"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.630Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.585Z"
+    },
+    {
+      "id": "计算机技术--代理协议对比",
+      "relPath": "计算机技术/代理协议对比.md",
+      "title": "代理协议对比",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 428,
+      "readingTime": 2,
+      "excerpt": "最早流行的代理协议，原理简单，加密流量 特征明显，目前已被 GFW 精准识别，不推荐新建节点使用 老节点兼容性好，客户端支持最广 V2Ray 自研协议，带时间校验（客户端与服务端时间需同步） 流量特征比 SS 更隐蔽，但仍可被检测 已逐渐被 VLESS 取代 VMess 的轻量化改进版，去掉冗余加密（通常配合 TLS ...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "Shadowsocks（SS）",
+          "id": "shadowsocks-ss-"
+        },
+        {
+          "level": 2,
+          "text": "VMess",
+          "id": "vmess"
+        },
+        {
+          "level": 2,
+          "text": "VLESS",
+          "id": "vless"
+        },
+        {
+          "level": 2,
+          "text": "Trojan",
+          "id": "trojan"
+        },
+        {
+          "level": 2,
+          "text": "XTLS Reality",
+          "id": "xtls-reality"
+        },
+        {
+          "level": 2,
+          "text": "Hysteria2",
+          "id": "hysteria2"
+        },
+        {
+          "level": 2,
+          "text": "TUIC",
+          "id": "tuic"
+        },
+        {
+          "level": 2,
+          "text": "横向对比",
+          "id": "横向对比"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.585Z"
+    },
+    {
+      "id": "计算机技术--翻墙技术",
+      "relPath": "计算机技术/翻墙技术.md",
+      "title": "网络服务器配置",
+      "category": "计算机技术",
+      "tags": [],
+      "wordCount": 264,
+      "readingTime": 1,
+      "excerpt": "VPS 初始化设置 + 代理协议一键安装脚本 弹出提示直接回车即可 输出含 即成功 macka/v2rayagent 一键脚本，支持 VLESS / Trojan / XTLS Reality 等多种协议： 3XUI 开源 Web 控制面板： v2rayagent个人用，3xui多人使用管理，在虚拟机上配置好后都需要去...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "一、基础环境配置",
+          "id": "一-基础环境配置"
+        },
+        {
+          "level": 3,
+          "text": "1. 切换到 root",
+          "id": "1-切换到-root"
+        },
+        {
+          "level": 3,
+          "text": "2. 更新系统",
+          "id": "2-更新系统"
+        },
+        {
+          "level": 3,
+          "text": "3. 设置时区（东八区）",
+          "id": "3-设置时区-东八区-"
+        },
+        {
+          "level": 3,
+          "text": "4. 验证时间",
+          "id": "4-验证时间"
+        },
+        {
+          "level": 3,
+          "text": "5. 开启 BBR 拥塞控制",
+          "id": "5-开启-bbr-拥塞控制"
+        },
+        {
+          "level": 3,
+          "text": "6. 生效配置",
+          "id": "6-生效配置"
+        },
+        {
+          "level": 3,
+          "text": "7. 验证 BBR 是否开启",
+          "id": "7-验证-bbr-是否开启"
+        },
+        {
+          "level": 2,
+          "text": "二、安装代理协议",
+          "id": "二-安装代理协议"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.585Z"
     },
     {
       "id": "科研方向--研究方向_终案",
@@ -709,8 +677,66 @@
           "id": "每周固定动作"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.629Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.584Z"
+    },
+    {
+      "id": "科研方向--研究计划",
+      "relPath": "科研方向/研究计划.md",
+      "title": "研究计划",
+      "category": "科研方向",
+      "tags": [],
+      "wordCount": 688,
+      "readingTime": 2,
+      "excerpt": "初步想法：面向边缘设备的鸟鸣识别轻量化模型搜索。以 RK3566 这类算力受限的边缘硬件为目标平台，研究如何通过多目标神经架构搜索，在鸟鸣分类精度和实际推理延迟之间找到较优平衡。 目前考虑主线： 1. 先构建一个小规模鸟鸣分类数据集，大约 58 类鸟种加背景噪声，数据来源主要是 xenocanto 或者 BirdCLE...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.584Z"
+    },
+    {
+      "id": "科研方向--遗传算法",
+      "relPath": "科研方向/遗传算法.md",
+      "title": "算法概述",
+      "category": "科研方向",
+      "tags": [],
+      "wordCount": 1337,
+      "readingTime": 4,
+      "excerpt": "遗传算法是一种模拟达尔文生物进化论的随机搜索启发式算法，是一种经典的进化计算算法 核心思想：通过对种群进行选择、交叉和变异等遗传操作，使优良个体在进化过程中逐渐占据主导，从而在复杂的搜索空间中逼近或找到最优解（枚举法、启发式算法、搜索算法） 常用于：函数优化、组合优化、生产调度问题等 算法主要包括：编码、产生初始种群、...",
+      "headings": [
+        {
+          "level": 3,
+          "text": "1-2月份安排",
+          "id": "1-2月份安排"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.584Z"
+    },
+    {
+      "id": "日本--日语歌词--我心危歌词",
+      "relPath": "日本/日语歌词/我心危歌词.md",
+      "title": "僕は... — あたらよ",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1890,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"君(きみ)が僕(ぼく)に見(み)せてくれた</span 是你让我看到 <span style=\"fontfamily...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.583Z"
+    },
+    {
+      "id": "日本--日语歌词--斜阳歌词",
+      "relPath": "日本/日语歌词/斜阳歌词.md",
+      "title": "斜陽 — ヨルシカ",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1170,
+      "readingTime": 4,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"頬色(ほおいろ)に茜(あかね)さす日(ひ)は柔らか(やわらか)に</span 颊色染上了一抹茜红，夕阳柔和地迸裂开来...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.583Z"
     },
     {
       "id": "日本--日语歌词--老人与海歌词",
@@ -722,8 +748,8 @@
       "readingTime": 4,
       "excerpt": "靴紐(くつひも)が解(ほど)けてる 鞋带松开 木漏(こも)れ日(び)は足(あし)を舐(な)む 斑驳树荫下的阳光照在脚上 息(いき)を吸(す)う音(おと)だけ聞(き)こえてる 只听得到轻轻的呼吸声 貴方(あなた)は今(いま)立(た)ち上(あ)がる 你突然站了起来 古(ふる)びた椅子(いす)の上(うえ)から 从那把陈旧的椅...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.628Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.583Z"
     },
     {
       "id": "科研方向--研究方向",
@@ -756,47 +782,8 @@
           "id": "4-moea-d-对比-算法改进"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.628Z"
-    },
-    {
-      "id": "日本--日语歌词--歌词",
-      "relPath": "日本/日语歌词/ツバサ歌词.md",
-      "title": "ツバサ — 七星静香（CV: 若山詩音）",
-      "category": "日本/日语歌词",
-      "tags": [],
-      "wordCount": 1635,
-      "readingTime": 5,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"明(あ)け方(がた)過(す)ぎの国道(こくどう)までの細(ほそ)い抜(ぬ)け道(みち)</span 黎明时分通往国道...",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.627Z"
-    },
-    {
-      "id": "日本--日语歌词--我心危歌词",
-      "relPath": "日本/日语歌词/我心危歌词.md",
-      "title": "僕は... — あたらよ",
-      "category": "日本/日语歌词",
-      "tags": [],
-      "wordCount": 1890,
-      "readingTime": 6,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"君(きみ)が僕(ぼく)に見(み)せてくれた</span 是你让我看到 <span style=\"fontfamily...",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.627Z"
-    },
-    {
-      "id": "日本--日语歌词--斜阳歌词",
-      "relPath": "日本/日语歌词/斜阳歌词.md",
-      "title": "斜陽 — ヨルシカ",
-      "category": "日本/日语歌词",
-      "tags": [],
-      "wordCount": 1170,
-      "readingTime": 4,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"頬色(ほおいろ)に茜(あかね)さす日(ひ)は柔らか(やわらか)に</span 颊色染上了一抹茜红，夕阳柔和地迸裂开来...",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.627Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.583Z"
     },
     {
       "id": "日本--日语歌词--spiral歌词",
@@ -808,8 +795,8 @@
       "readingTime": 6,
       "excerpt": "spiral — LONGMAN <span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"描(えが)いた地図(ちず)は引(ひ)き裂(さ)いた</span 昔日描绘的地图已破...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.626Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.582Z"
     },
     {
       "id": "日本--日语歌词--歌词",
@@ -821,8 +808,205 @@
       "readingTime": 3,
       "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"走(はし)れそりよ 風(かぜ)のように</span 奔驰吧雪橇，像风一样 <span style=\"fontfami...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.626Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.582Z"
+    },
+    {
+      "id": "日本--日语歌词--歌词",
+      "relPath": "日本/日语歌词/ツバサ歌词.md",
+      "title": "ツバサ — 七星静香（CV: 若山詩音）",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1635,
+      "readingTime": 5,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"明(あ)け方(がた)過(す)ぎの国道(こくどう)までの細(ほそ)い抜(ぬ)け道(みち)</span 黎明时分通往国道...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.582Z"
+    },
+    {
+      "id": "日本--日语歌词--love2000歌词",
+      "relPath": "日本/日语歌词/love2000歌词.md",
+      "title": "LOVE 2000 — 八奈見杏菜（CV: 遠野ひかる）",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1803,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"愛(あい)はどこからやってくるのでしょう</span 爱，究竟从何处降临呢 <span style=\"fontfam...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.581Z"
+    },
+    {
+      "id": "日本--日语歌词--nightdancer歌词",
+      "relPath": "日本/日语歌词/night dancer歌词.md",
+      "title": "NIGHT DANCER — imase",
+      "category": "日本/日语歌词",
+      "tags": [],
+      "wordCount": 1756,
+      "readingTime": 6,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"どうでもいいような夜(よる)だけど</span 虽是个无所谓的夜晚 <span style=\"fontfamily:...",
+      "headings": [],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.581Z"
+    },
+    {
+      "id": "日本--日漫字幕组及发布资源地址",
+      "relPath": "日本/日漫字幕组及发布资源地址.md",
+      "title": "日漫字幕组及发布资源地址",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 846,
+      "readingTime": 3,
+      "excerpt": "主要整理制作日漫中日双语字幕的字幕组，以及它们的官方频道、字幕存档和公开发布页。 “简日”通常指简体中文 + 日文；“繁日”指繁体中文 + 日文；“简繁日”指简体中文 + 繁体中文 + 日文。不同字幕组并非每部作品都制作双语，查找时应以具体作品的发布标题为准。 | 平台 | 地址 | 用途 | | | | | | An...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "最常用的公开索引",
+          "id": "最常用的公开索引"
+        },
+        {
+          "level": 2,
+          "text": "主要字幕组",
+          "id": "主要字幕组"
+        },
+        {
+          "level": 3,
+          "text": "SweetSub",
+          "id": "sweetsub"
+        },
+        {
+          "level": 3,
+          "text": "喵萌奶茶屋（Nekomoe Kissaten）",
+          "id": "喵萌奶茶屋-nekomoe-kissaten-"
+        },
+        {
+          "level": 3,
+          "text": "绿茶字幕组（Studio GreenTea）",
+          "id": "绿茶字幕组-studio-greentea-"
+        },
+        {
+          "level": 3,
+          "text": "拨雪寻春（Haruhana）",
+          "id": "拨雪寻春-haruhana-"
+        },
+        {
+          "level": 3,
+          "text": "诸神字幕组（Kamigami）",
+          "id": "诸神字幕组-kamigami-"
+        },
+        {
+          "level": 3,
+          "text": "云歌字幕组 / 萌樱字幕组",
+          "id": "云歌字幕组-萌樱字幕组"
+        },
+        {
+          "level": 3,
+          "text": "Billion Meta Lab",
+          "id": "billion-meta-lab"
+        },
+        {
+          "level": 3,
+          "text": "猎户发布组",
+          "id": "猎户发布组"
+        },
+        {
+          "level": 3,
+          "text": "银色子弹字幕组（SBSUB）",
+          "id": "银色子弹字幕组-sbsub-"
+        },
+        {
+          "level": 3,
+          "text": "北宇治字幕组",
+          "id": "北宇治字幕组"
+        },
+        {
+          "level": 2,
+          "text": "其他项目型字幕组",
+          "id": "其他项目型字幕组"
+        },
+        {
+          "level": 2,
+          "text": "推荐检索格式",
+          "id": "推荐检索格式"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.580Z"
+    },
+    {
+      "id": "日本--日语五十音学习",
+      "relPath": "日本/日语五十音学习.md",
+      "title": "日语五十音图与假名学习手册",
+      "category": "日本",
+      "tags": [],
+      "wordCount": 1039,
+      "readingTime": 3,
+      "excerpt": "[!TIP] 学习提示 平假名（ひらがな）：用于日常本土词汇、语法假名、汉字注音（振仮名）。 片假名（カタカナ）：用于外来语、拟声拟态词、人名地名及强调。 代码块中的字母（如 ）为对应假名的罗马字发音。 | 行 \\ 段 | a (ア段) | i (イ段) | u (ウ段) | e (エ段) | o (オ段) | | :...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "1. 平假名五十音图（清音）",
+          "id": "1-平假名五十音图-清音-"
+        },
+        {
+          "level": 2,
+          "text": "2. 片假名五十音图（清音）",
+          "id": "2-片假名五十音图-清音-"
+        },
+        {
+          "level": 2,
+          "text": "3. 浊音与半浊音",
+          "id": "3-浊音与半浊音"
+        },
+        {
+          "level": 3,
+          "text": "3.1 浊音（濁音 - だくおん）",
+          "id": "3-1-浊音-濁音---"
+        },
+        {
+          "level": 3,
+          "text": "3.2 半浊音（半濁音 - はんだくおん）",
+          "id": "3-2-半浊音-半濁音---"
+        },
+        {
+          "level": 2,
+          "text": "4. 拗音表（ようおん）",
+          "id": "4-拗音表-"
+        },
+        {
+          "level": 3,
+          "text": "4.1 清音拗音",
+          "id": "4-1-清音拗音"
+        },
+        {
+          "level": 3,
+          "text": "4.2 浊音 / 半浊音拗音",
+          "id": "4-2-浊音-半浊音拗音"
+        },
+        {
+          "level": 2,
+          "text": "5. 促音与长音规则",
+          "id": "5-促音与长音规则"
+        },
+        {
+          "level": 3,
+          "text": "5.1 促音（っ / ッ）",
+          "id": "5-1-促音-"
+        },
+        {
+          "level": 3,
+          "text": "5.2 长音（長音）",
+          "id": "5-2-长音-長音-"
+        },
+        {
+          "level": 2,
+          "text": "6. 常用外来语扩展假名",
+          "id": "6-常用外来语扩展假名"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.580Z"
     },
     {
       "id": "日本--日语学习",
@@ -915,34 +1099,63 @@
           "id": "第十六课"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.625Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.580Z"
     },
     {
-      "id": "日本--日语歌词--love2000歌词",
-      "relPath": "日本/日语歌词/love2000歌词.md",
-      "title": "LOVE 2000 — 八奈見杏菜（CV: 遠野ひかる）",
-      "category": "日本/日语歌词",
+      "id": "我的个人简介",
+      "relPath": "我的个人简介.md",
+      "title": "我的个人简介",
+      "category": "综合随笔",
       "tags": [],
-      "wordCount": 1803,
-      "readingTime": 6,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"愛(あい)はどこからやってくるのでしょう</span 爱，究竟从何处降临呢 <span style=\"fontfam...",
+      "wordCount": 160,
+      "readingTime": 1,
+      "excerpt": "李庆辉，02年出生，男，电话号码是13204966084，邮箱是 3232170467@qq.com 本科毕业于中南林业科技大学计算机科学与技术专业，硕士就读于中南林业科技大学遥感科学与技术专业，研究方向是智能优化、多目标优化 熟练使用codex、antigravity、claudecode等智能体工具，利用智能体进行...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.625Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.579Z"
     },
     {
-      "id": "日本--日语歌词--nightdancer歌词",
-      "relPath": "日本/日语歌词/night dancer歌词.md",
-      "title": "NIGHT DANCER — imase",
-      "category": "日本/日语歌词",
+      "id": "日本--JR日本广告语总结",
+      "relPath": "日本/JR日本广告语总结.md",
+      "title": "JR日本经典广告语总结",
+      "category": "日本",
       "tags": [],
-      "wordCount": 1756,
-      "readingTime": 6,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"どうでもいいような夜(よる)だけど</span 虽是个无所谓的夜晚 <span style=\"fontfamily:...",
+      "wordCount": 343,
+      "readingTime": 1,
+      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"そうだ 京都(きょうと)、行(い)こう。</span 对了，去京都吧。 <span style=\"fontfamil...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.625Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.579Z"
+    },
+    {
+      "id": "日本--日本之行--日记-日本之行",
+      "relPath": "日本/日本之行/日记-日本之行.md",
+      "title": "整体的计划",
+      "category": "日本/日本之行",
+      "tags": [],
+      "wordCount": 1233,
+      "readingTime": 4,
+      "excerpt": "对我这次去日本的一些记录 这是调整之后的计划 整体行程如下： 2.1号，晚上坐动车从长沙到上海； 2.2号上午从上海浦东飞往大阪关西国际机场，然后直奔酒店，放好东西已经晚上了，直接去道顿堀打卡了格力高小人，晚上拉肚子了； 2.3号，一整天人感不适，上午去大阪逛了下，中午不舒服了直接回了酒店，躺了一下午，发烧了，药妆店买...",
+      "headings": [
+        {
+          "level": 2,
+          "text": "1月30号",
+          "id": "1月30号"
+        },
+        {
+          "level": 2,
+          "text": "1月31号",
+          "id": "1月31号"
+        },
+        {
+          "level": 2,
+          "text": "2月1号",
+          "id": "2月1号"
+        }
+      ],
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.579Z"
     },
     {
       "id": "日本--日本之行--第一次日本行财务计算",
@@ -990,221 +1203,8 @@
           "id": "总计与数据分析"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.624Z"
-    },
-    {
-      "id": "日本--日漫字幕组及发布资源地址",
-      "relPath": "日本/日漫字幕组及发布资源地址.md",
-      "title": "日漫字幕组及发布资源地址",
-      "category": "日本",
-      "tags": [],
-      "wordCount": 846,
-      "readingTime": 3,
-      "excerpt": "主要整理制作日漫中日双语字幕的字幕组，以及它们的官方频道、字幕存档和公开发布页。 “简日”通常指简体中文 + 日文；“繁日”指繁体中文 + 日文；“简繁日”指简体中文 + 繁体中文 + 日文。不同字幕组并非每部作品都制作双语，查找时应以具体作品的发布标题为准。 | 平台 | 地址 | 用途 | | | | | | An...",
-      "headings": [
-        {
-          "level": 2,
-          "text": "最常用的公开索引",
-          "id": "最常用的公开索引"
-        },
-        {
-          "level": 2,
-          "text": "主要字幕组",
-          "id": "主要字幕组"
-        },
-        {
-          "level": 3,
-          "text": "SweetSub",
-          "id": "sweetsub"
-        },
-        {
-          "level": 3,
-          "text": "喵萌奶茶屋（Nekomoe Kissaten）",
-          "id": "喵萌奶茶屋-nekomoe-kissaten-"
-        },
-        {
-          "level": 3,
-          "text": "绿茶字幕组（Studio GreenTea）",
-          "id": "绿茶字幕组-studio-greentea-"
-        },
-        {
-          "level": 3,
-          "text": "拨雪寻春（Haruhana）",
-          "id": "拨雪寻春-haruhana-"
-        },
-        {
-          "level": 3,
-          "text": "诸神字幕组（Kamigami）",
-          "id": "诸神字幕组-kamigami-"
-        },
-        {
-          "level": 3,
-          "text": "云歌字幕组 / 萌樱字幕组",
-          "id": "云歌字幕组-萌樱字幕组"
-        },
-        {
-          "level": 3,
-          "text": "Billion Meta Lab",
-          "id": "billion-meta-lab"
-        },
-        {
-          "level": 3,
-          "text": "猎户发布组",
-          "id": "猎户发布组"
-        },
-        {
-          "level": 3,
-          "text": "银色子弹字幕组（SBSUB）",
-          "id": "银色子弹字幕组-sbsub-"
-        },
-        {
-          "level": 3,
-          "text": "北宇治字幕组",
-          "id": "北宇治字幕组"
-        },
-        {
-          "level": 2,
-          "text": "其他项目型字幕组",
-          "id": "其他项目型字幕组"
-        },
-        {
-          "level": 2,
-          "text": "推荐检索格式",
-          "id": "推荐检索格式"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.624Z"
-    },
-    {
-      "id": "日本--日语五十音学习",
-      "relPath": "日本/日语五十音学习.md",
-      "title": "日语五十音图与假名学习手册",
-      "category": "日本",
-      "tags": [],
-      "wordCount": 1039,
-      "readingTime": 3,
-      "excerpt": "[!TIP] 学习提示 平假名（ひらがな）：用于日常本土词汇、语法假名、汉字注音（振仮名）。 片假名（カタカナ）：用于外来语、拟声拟态词、人名地名及强调。 代码块中的字母（如 ）为对应假名的罗马字发音。 | 行 \\ 段 | a (ア段) | i (イ段) | u (ウ段) | e (エ段) | o (オ段) | | :...",
-      "headings": [
-        {
-          "level": 2,
-          "text": "1. 平假名五十音图（清音）",
-          "id": "1-平假名五十音图-清音-"
-        },
-        {
-          "level": 2,
-          "text": "2. 片假名五十音图（清音）",
-          "id": "2-片假名五十音图-清音-"
-        },
-        {
-          "level": 2,
-          "text": "3. 浊音与半浊音",
-          "id": "3-浊音与半浊音"
-        },
-        {
-          "level": 3,
-          "text": "3.1 浊音（濁音 - だくおん）",
-          "id": "3-1-浊音-濁音---"
-        },
-        {
-          "level": 3,
-          "text": "3.2 半浊音（半濁音 - はんだくおん）",
-          "id": "3-2-半浊音-半濁音---"
-        },
-        {
-          "level": 2,
-          "text": "4. 拗音表（ようおん）",
-          "id": "4-拗音表-"
-        },
-        {
-          "level": 3,
-          "text": "4.1 清音拗音",
-          "id": "4-1-清音拗音"
-        },
-        {
-          "level": 3,
-          "text": "4.2 浊音 / 半浊音拗音",
-          "id": "4-2-浊音-半浊音拗音"
-        },
-        {
-          "level": 2,
-          "text": "5. 促音与长音规则",
-          "id": "5-促音与长音规则"
-        },
-        {
-          "level": 3,
-          "text": "5.1 促音（っ / ッ）",
-          "id": "5-1-促音-"
-        },
-        {
-          "level": 3,
-          "text": "5.2 长音（長音）",
-          "id": "5-2-长音-長音-"
-        },
-        {
-          "level": 2,
-          "text": "6. 常用外来语扩展假名",
-          "id": "6-常用外来语扩展假名"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.624Z"
-    },
-    {
-      "id": "我的个人简介",
-      "relPath": "我的个人简介.md",
-      "title": "我的个人简介",
-      "category": "综合随笔",
-      "tags": [],
-      "wordCount": 160,
-      "readingTime": 1,
-      "excerpt": "李庆辉，02年出生，男，电话号码是13204966084，邮箱是 3232170467@qq.com 本科毕业于中南林业科技大学计算机科学与技术专业，硕士就读于中南林业科技大学遥感科学与技术专业，研究方向是智能优化、多目标优化 熟练使用codex、antigravity、claudecode等智能体工具，利用智能体进行...",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.623Z"
-    },
-    {
-      "id": "日本--JR日本广告语总结",
-      "relPath": "日本/JR日本广告语总结.md",
-      "title": "JR日本经典广告语总结",
-      "category": "日本",
-      "tags": [],
-      "wordCount": 343,
-      "readingTime": 1,
-      "excerpt": "<span style=\"fontfamily: 'Hiragino Mincho ProN', 'YuMincho', 'Noto Serif JP', serif; fontsize: 1.4em;\"そうだ 京都(きょうと)、行(い)こう。</span 对了，去京都吧。 <span style=\"fontfamil...",
-      "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.623Z"
-    },
-    {
-      "id": "日本--日本之行--日记-日本之行",
-      "relPath": "日本/日本之行/日记-日本之行.md",
-      "title": "整体的计划",
-      "category": "日本/日本之行",
-      "tags": [],
-      "wordCount": 1233,
-      "readingTime": 4,
-      "excerpt": "对我这次去日本的一些记录 这是调整之后的计划 整体行程如下： 2.1号，晚上坐动车从长沙到上海； 2.2号上午从上海浦东飞往大阪关西国际机场，然后直奔酒店，放好东西已经晚上了，直接去道顿堀打卡了格力高小人，晚上拉肚子了； 2.3号，一整天人感不适，上午去大阪逛了下，中午不舒服了直接回了酒店，躺了一下午，发烧了，药妆店买...",
-      "headings": [
-        {
-          "level": 2,
-          "text": "1月30号",
-          "id": "1月30号"
-        },
-        {
-          "level": 2,
-          "text": "1月31号",
-          "id": "1月31号"
-        },
-        {
-          "level": 2,
-          "text": "2月1号",
-          "id": "2月1号"
-        }
-      ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.623Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.579Z"
     },
     {
       "id": "Obsidian快捷排版教程",
@@ -1302,8 +1302,8 @@
           "id": "六-常用全局快捷键-mac-"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.622Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.578Z"
     },
     {
       "id": "agent学习",
@@ -1315,8 +1315,8 @@
       "readingTime": 1,
       "excerpt": "强化学习：通过与环境互动、根据反馈信号来优化自身行为的学习机制 基于大规模数据的预训练：",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.622Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.578Z"
     },
     {
       "id": "NuWa-DerivingLightweightClass-SpecificVisionTransformersforEdgeDevices",
@@ -1451,8 +1451,8 @@
           "id": "15-limitations-and-future-works"
         }
       ],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.621Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.577Z"
     },
     {
       "id": "MinerU_markdown_202605311324880_cd9abb02",
@@ -1464,8 +1464,8 @@
       "readingTime": 27,
       "excerpt": "Yifei Sun , Mingkai Duan , Sicheng Hou , Shi Cheng , Maoguo Gong , Fellow, IEEE, and ZhiHui Zhan , Fellow, IEEE Abstract—Cognitive diagnosis (CD) is a fundament...",
       "headings": [],
-      "date": "2026-10-03",
-      "mtime": "2026-10-03T13:52:29.620Z"
+      "date": "2026-10-04",
+      "mtime": "2026-10-04T06:13:18.576Z"
     }
   ]
 }

@@ -66,11 +66,12 @@
     btnCopyMarkdown: document.getElementById('btn-copy-markdown')
   };
 
-  // 安全 HTML 挂载器 (使用 DOMParser 规避 innerHTML XSS)
+  // 安全 HTML 挂载器 (使用 ContextualFragment 规避跨文档异常与 XSS)
   function renderSafeHTML(target, htmlString) {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(htmlString, 'text/html');
-    target.replaceChildren(...doc.body.childNodes);
+    const range = document.createRange();
+    range.selectNodeContents(target);
+    const fragment = range.createContextualFragment(htmlString);
+    target.replaceChildren(fragment);
   }
 
   // 1. 初始化
@@ -79,10 +80,21 @@
     configureMarked();
 
     try {
-      const response = await fetch('content/notes-manifest.json', { cache: 'no-cache' });
-      if (!response.ok) throw new Error('无法读取 notes-manifest.json');
-      state.manifest = await response.json();
-      state.notes = state.manifest.notes || [];
+      // 优先从打包脚本读取离线数据（0延迟、免 CORS、即开即用）
+      if (window.__OBSIDIAN_NOTES_DATA__ && window.__OBSIDIAN_NOTES_DATA__.manifest) {
+        state.manifest = window.__OBSIDIAN_NOTES_DATA__.manifest;
+        state.notes = state.manifest.notes || [];
+        if (window.__OBSIDIAN_NOTES_DATA__.notesContent) {
+          for (const [k, v] of Object.entries(window.__OBSIDIAN_NOTES_DATA__.notesContent)) {
+            state.rawMarkdownMap.set(k, v);
+          }
+        }
+      } else {
+        const response = await fetch('content/notes-manifest.json', { cache: 'no-cache' });
+        if (!response.ok) throw new Error('无法读取 notes-manifest.json');
+        state.manifest = await response.json();
+        state.notes = state.manifest.notes || [];
+      }
 
       renderVaultStats();
       renderCategoryChips();
@@ -103,28 +115,41 @@
     }
   }
 
-  // 2. 配置 Marked Markdown 解析器
+  // 2. 配置 Marked Markdown 解析器 (适配 Marked v15 与旧版对象/双参数签名)
   function configureMarked() {
     if (typeof marked === 'undefined') return;
 
     const renderer = new marked.Renderer();
 
     // 自定义标题渲染，加入自动锚点
-    renderer.heading = function (text, level) {
+    renderer.heading = function (param1, param2) {
+      let text = '';
+      let level = 1;
+      if (typeof param1 === 'object' && param1 !== null) {
+        text = String(param1.text || '');
+        level = param1.depth || 1;
+      } else {
+        text = String(param1 || '');
+        level = param2 || 1;
+      }
       const plainText = text.replace(/<[^>]+>/g, '').trim();
-      const slug = plainText.toLowerCase().replace(/[^\w\u4e00-\u9fa5\-]+/g, '-');
+      const slug = plainText.toLowerCase().replace(/[^\w\u4e00-\u9fa5\-]+/g, '-') || `heading-${level}`;
       return `<h${level} id="${slug}" class="article-heading">
         <a href="#${slug}" class="heading-anchor" aria-hidden="true">#</a>${text}
-      </h${level}>`;
-    };
-
-    // 自定义表格包裹层，支持水平滑动
-    renderer.table = function (header, body) {
-      return `<div class="table-wrap"><table><thead>${header}</thead><tbody>${body}</tbody></table></div>`;
+      </h${level}>\n`;
     };
 
     // 自定义代码块，添加语言标签与复制按钮
-    renderer.code = function (code, lang) {
+    renderer.code = function (param1, param2) {
+      let code = '';
+      let lang = 'text';
+      if (typeof param1 === 'object' && param1 !== null) {
+        code = String(param1.text || '');
+        lang = param1.lang || 'text';
+      } else {
+        code = String(param1 || '');
+        lang = param2 || 'text';
+      }
       const safeLang = (lang || 'text').toLowerCase();
       const encodedCode = encodeURIComponent(code);
       const escapedCode = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -459,6 +484,11 @@
     // 拉取 Markdown 原文
     try {
       let rawMarkdown = state.rawMarkdownMap.get(note.relPath);
+      if (!rawMarkdown && window.__OBSIDIAN_NOTES_DATA__ && window.__OBSIDIAN_NOTES_DATA__.notesContent) {
+        rawMarkdown = window.__OBSIDIAN_NOTES_DATA__.notesContent[note.relPath];
+        if (rawMarkdown) state.rawMarkdownMap.set(note.relPath, rawMarkdown);
+      }
+
       if (!rawMarkdown) {
         const response = await fetch(`content/notes/${encodeURI(note.relPath)}`);
         if (!response.ok) throw new Error('无法拉取笔记原文');
@@ -470,6 +500,16 @@
       const processed = processObsidianMarkdown(rawMarkdown);
       const html = marked.parse(processed);
       renderSafeHTML(el.articleBody, html);
+
+      // 后处理表格自适应滑动包裹
+      el.articleBody.querySelectorAll('table').forEach(table => {
+        if (!table.parentElement.classList.contains('table-wrap')) {
+          const wrap = document.createElement('div');
+          wrap.className = 'table-wrap';
+          table.replaceWith(wrap);
+          wrap.append(table);
+        }
+      });
 
       // 后处理 Callouts
       postProcessCallouts(el.articleBody);

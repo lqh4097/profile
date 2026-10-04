@@ -8,6 +8,7 @@ const defaultVaultPath = '/Users/gureiratto/Library/Mobile Documents/iCloud~md~o
 const vaultPath = process.env.OBSIDIAN_VAULT_PATH || defaultVaultPath;
 const targetNotesDir = path.join(repoRoot, 'content', 'notes');
 const targetManifestPath = path.join(repoRoot, 'content', 'notes-manifest.json');
+const targetDataJsPath = path.join(repoRoot, 'content', 'notes-data.js');
 
 console.log('🔄 正在同步 Obsidian 笔记库...');
 console.log(`📂 源目录: ${vaultPath}`);
@@ -210,6 +211,18 @@ function buildManifestFromDir(notesDir) {
   ensureDir(path.dirname(targetManifestPath));
   fs.writeFileSync(targetManifestPath, JSON.stringify(manifest, null, 2), 'utf8');
   console.log(`✅ 成功索引 ${notes.length} 篇笔记，清单已写入: ${targetManifestPath}`);
+
+  // 生成全量数据脚本 content/notes-data.js（免 fetch、免 CORS、0延迟即开即看）
+  const notesContent = {};
+  for (const item of items) {
+    const fullPath = path.join(notesDir, item.relPath);
+    notesContent[item.relPath] = fs.readFileSync(fullPath, 'utf8');
+  }
+
+  const jsContent = `window.__OBSIDIAN_NOTES_DATA__ = ${JSON.stringify({ manifest, notesContent }, null, 2)};\n`;
+  fs.writeFileSync(targetDataJsPath, jsContent, 'utf8');
+  console.log(`✅ 已打包全量笔记正文至: ${targetDataJsPath}`);
+
   return manifest;
 }
 
